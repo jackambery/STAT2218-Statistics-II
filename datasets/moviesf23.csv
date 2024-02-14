@@ -1,0 +1,78 @@
+movie,genre,type,runtime,imdbscore,imdbNumVotes,criticrating,criticscore,audiencerating,audiencescore
+1,Other,NotDrama,108,6.5,290356,Rotten,52,Bad,55
+2,Other,NotDrama,127,6.8,71979,Certified Fresh,89,Good,75
+3,Other,NotDrama,137,8.4,466400,Certified Fresh,98,Good,94
+4,Other,NotDrama,87,4.4,21501,Rotten,12,Bad,52
+5,Other,NotDrama,101,6.4,54726,Rotten,48,Bad,59
+6,Other,NotDrama,87,7,56128,Fresh,68,Good,77
+7,Other,NotDrama,115,6.4,3688,Fresh,91,Good,61
+8,Comedy,NotDrama,100,4.4,5616,Rotten,21,Bad,24
+9,Comedy,NotDrama,97,5.3,1816,Rotten,40,Bad,41
+10,Comedy,NotDrama,94,5.4,13523,Rotten,57,Bad,40
+11,Comedy,NotDrama,91,5.5,4768,Rotten,13,Bad,30
+12,Comedy,NotDrama,100,5.9,25808,Rotten,25,Bad,53
+13,Comedy,NotDrama,98,6.3,8646,Certified Fresh,81,Bad,54
+14,Comedy,NotDrama,113,6.5,9654,Rotten,54,Good,62
+15,Comedy,NotDrama,93,6.8,6788,Fresh,79,Good,75
+16,Comedy,NotDrama,84,7.6,22381,Certified Fresh,91,Good,91
+17,Comedy,NotDrama,110,7.6,201779,Certified Fresh,80,Good,89
+18,Documentary,NotDrama,112,6.6,4908,Rotten,40,Bad,57
+19,Documentary,NotDrama,65,7.3,183,Fresh,73,Good,88
+20,Documentary,NotDrama,88,7.5,880,Fresh,90,Good,89
+21,Documentary,NotDrama,82,7.6,3459,Fresh,92,Good,86
+22,Documentary,NotDrama,87,7.6,4541,Certified Fresh,79,Good,77
+23,Documentary,NotDrama,78,7.8,333,Fresh,91,Good,86
+24,Documentary,NotDrama,92,7.8,1942,Certified Fresh,96,Good,89
+25,Documentary,NotDrama,103,8.1,14359,Fresh,100,Good,90
+26,Documentary,NotDrama,106,8.5,2362,Certified Fresh,96,Good,96
+27,Drama,Drama,80,5.5,899,Rotten,45,Good,73
+28,Drama,Drama,93,5.5,2272,Rotten,17,Bad,47
+29,Drama,Drama,102,5.5,1628,Rotten,56,Bad,38
+30,Drama,Drama,99,5.9,1493,Rotten,59,Bad,47
+31,Drama,Drama,108,6,9669,Fresh,67,Bad,46
+32,Drama,Drama,100,6,8320,Rotten,50,Bad,44
+33,Drama,Drama,130,6,3745,Rotten,54,Bad,39
+34,Drama,Drama,115,6.1,2145,Rotten,13,Bad,51
+35,Drama,Drama,107,6.2,16717,Fresh,66,Bad,42
+36,Drama,Drama,116,6.2,9357,Rotten,47,Good,71
+37,Drama,Drama,125,6.2,33839,Rotten,35,Bad,40
+38,Drama,Drama,135,6.2,48324,Rotten,40,Bad,43
+39,Drama,Drama,90,6.4,21704,Fresh,63,Bad,52
+40,Drama,Drama,98,6.5,48519,Rotten,21,Good,64
+41,Drama,Drama,115,6.5,37770,Rotten,46,Bad,59
+42,Drama,Drama,119,6.6,12496,Certified Fresh,83,Good,66
+43,Drama,Drama,106,6.6,6228,Fresh,69,Good,64
+44,Drama,Drama,120,6.6,19714,Rotten,34,Bad,52
+45,Drama,Drama,115,6.7,22079,Fresh,67,Good,64
+46,Drama,Drama,135,6.7,5258,Rotten,50,Bad,49
+47,Drama,Drama,140,6.8,10468,Rotten,44,Good,72
+48,Drama,Drama,106,6.9,6336,Fresh,61,Good,92
+49,Drama,Drama,96,7,240033,Certified Fresh,78,Good,64
+50,Drama,Drama,124,7,56201,Rotten,40,Good,73
+51,Drama,Drama,135,7,47297,Certified Fresh,76,Good,70
+52,Drama,Drama,178,7.1,163490,Rotten,51,Good,81
+53,Drama,Drama,139,7.2,35096,Certified Fresh,80,Good,76
+54,Drama,Drama,142,7.2,5016,Rotten,57,Good,76
+55,Drama,Drama,140,7.2,66489,Rotten,54,Good,80
+56,Drama,Drama,119,7.2,4375,Rotten,40,Good,85
+57,Drama,Drama,101,7.3,12285,Certified Fresh,96,Good,81
+58,Drama,Drama,99,7.4,69338,Certified Fresh,81,Good,81
+59,Drama,Drama,162,7.4,137126,Certified Fresh,84,Good,83
+60,Drama,Drama,106,7.6,10492,Fresh,96,Good,87
+61,Drama,Drama,123,7.7,225130,Rotten,52,Good,75
+62,Drama,Drama,130,7.8,75468,Fresh,90,Good,88
+63,Drama,Drama,154,7.8,58668,Fresh,88,Good,94
+64,Other,NotDrama,91,4.4,37769,Rotten,19,Bad,24
+65,Other,NotDrama,90,5.1,2386,Rotten,33,Bad,27
+66,Other,NotDrama,84,5.6,19285,Certified Fresh,77,Bad,43
+67,Other,NotDrama,101,6.5,24783,Fresh,65,Bad,55
+68,Other,NotDrama,127,6.5,12450,Fresh,75,Bad,55
+69,Other,NotDrama,100,7.9,3488,Fresh,92,Good,91
+70,Other,NotDrama,79,5.5,5587,Rotten,6,Bad,35
+71,Other,NotDrama,101,5.9,2944,Rotten,24,Bad,38
+72,Other,NotDrama,108,6.4,6247,Fresh,64,Bad,43
+73,Other,NotDrama,119,6.5,62241,Rotten,52,Bad,56
+74,Other,NotDrama,115,6.6,110238,Rotten,43,Bad,58
+75,Other,NotDrama,85,7.1,82851,Certified Fresh,91,Good,71
+76,Other,NotDrama,124,7.1,259822,Fresh,69,Good,70
+77,Other,NotDrama,85,7.7,33101,Fresh,69,Good,85

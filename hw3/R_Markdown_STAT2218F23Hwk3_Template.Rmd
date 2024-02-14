@@ -1,0 +1,548 @@
+---
+title: "RMarkdown STAT 2218 Problem Set 3 Template"
+author: "Jack Ambery"
+date: "Friday, Nov 11, 2023"
+output: word_document
+  
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height = 4, fig.width = 6)
+#Note:  You can delete the include = FALSE (or change it to TRUE) in the R chunk above if you want the R code to print.
+```
+
+
+\vspace{0.2in}
+
+Data:  AntPreference.csv
+
+A study (in Australia) was done to see what type of sandwiches ants preferred.  There were four types of bread, three types of sandwich fillings (vegemite, peanut butter, and ham & pickles).  Butter was put on some of the sandwiches. The study looked at different sandwiches, each was made using one type of bread, one type of filling and it may have had butter on it. 
+
+To conduct the experiment a randomly chosen sandwich was selected and a piece of the sandwich was left on the ground near an ant hill. After 3 minutes a jar was  placed over the sandwich piece and the number of ants was counted. The process was repeated with a different type of sandwich, allowing time for ants to return to the hill after each
+trial.
+
+
+The data set has 48 observations on the following 5 variables.  This data set will be used for all 3 problems.
+
+* Trial: Trial number
+* Bread: Type of bread (Multigrain, Rye, White, or Wholemeal)
+* Filling: Type of filling (HamPickles, PeanutButter, or Vegemite)
+* Butter: Whether there was butter on the sandwich? no or yes
+* Ants: The number of ants on the sandwich piece after 3 minutes
+
+
+
+
+# Input data file below. 
+
+Import data into RStudio using the base option, and then cut and paste YOUR file directory in the read.csv command below. It may be different from what I have listed below since your files are located in a different directory/folder. Then you can attach the file.
+
+```{r}
+Ant <- read.csv("C:/Users/jacka/OneDrive - fairfield.edu/Fall 2023/Statistics II/datasets/AntPreference.csv")
+attach(Ant)
+
+```
+# Problem 1 (40 points)
+
+In this problem, we wish to examine if there is a difference in average number of ants based on type of bread.
+
+
+# Part 1a: Exploratory Analysis
+Get numerical and graphical summaries of the number of ants for the different types of bread. Based on this exploratory analysis does there appear to be a relationship between bread type and number of ants? Explain. [Include all code used.]
+
+## Part 1a Code
+
+```{r}
+
+# pairwise summaries
+tapply(Ants, Bread, summary)
+
+# pairwise standard deviations
+tapply(Ants, Bread, sd)
+
+#pairwise length
+tapply(Ants, Bread, length) #all have the same length
+
+#plots
+boxplot(Ants~Bread)
+barplot(tapply(Ants, Bread, mean))
+
+```
+
+## Part 1a Analysis
+Based on this exploratory analysis does there appear to be a relationship between bread type and number of ants? Explain. 
+
+Upon this initial exploratory analysis, it does not immediately seem like there is a significant relationship between bread type and number of ants.
+
+The summaries of each bread type indicate very similar means with White bread having a slightly higher mean and much higher median.
+
+The pairwise standard deviations show MultiGrain bread having the highest standard deviation.
+
+The pairwise lengths show 12 trials in each bread-type group.
+
+The pairwise boxplots help show that there may be a slightly higher relationship between the number of ants and White bread, although it is hard to tell if it will be significant.
+
+It does not seem likely that there will be a relationship between bread type and number of ants.
+
+\vspace{.2in}
+# Part 1b: Hypothesis Test
+At the 5% level, is there evidence of a difference in the average number of ants based on type of bread? Set up the null and alternative hypotheses and define the unknown parameters and summarize the results of the test in a sentence. 
+
+## Part 1b Code
+```{r}
+
+results = aov(Ants ~ Bread)
+summary(results)
+
+```
+
+## Part 1b Analysis
+Be sure to give the null and alternative hypotheses and define the unknown parameters and summarize the results of the test in a sentence. 
+
+$\mu_{1}$ = Average Number of Ants found on MultiGrain bread.
+
+$\mu_{2}$ = Average Number of Ants found on Rye bread.
+
+$\mu_{3}$ = Average Number of Ants found on White bread.
+
+$\mu_{4}$ = Average Number of Ants found on WholeWheat bread.
+
+H$_{0}$: $\mu_{1}$ = $\mu_{2}$ = $\mu_{3}$ = $\mu_{4}$; The average number of ants found on each type of bread is equal.
+
+H$_{a}$: At least one type of bread has a different average number of ants compared to the others.
+
+F = 0.055  df = 3  p-value = 0.983
+
+Since the one-way ANOVA test yields a p-value of 0.983, we do not reject H0.
+
+At the 5% level, there is no evidence that any of the mean number of ants is different for any particular type of bread.
+
+
+\vspace{.2in}
+
+# Part 1c: Checking the Assumptions 
+Check each of the assumptions (independence, normality and homogeneity of variance for this test) and state whether each condition is met or not.  Use a significance level of 5%.  Is it appropriate to use this test? Include relevant R codes.  
+
+## Part 1c Code
+```{r}
+# Independence
+# no code needed, given by the design of the experiment
+
+# Normality
+tapply(Ants, Bread, shapiro.test)
+hist(Ants[Bread == 'MultiGrain'])
+hist(Ants[Bread == 'Rye'])
+hist(Ants[Bread == 'White'])
+hist(Ants[Bread == 'WholeWheat'])
+
+# Homogeneity of Variance 
+library(car)
+leveneTest(Ants, Bread)
+
+```
+
+## Part 1c Analysis
+State whether each condition is met or not.  Use a significance level of 5%. Is it appropriate to use this test?
+
+[Independence]{.underline}
+
+By design of the experiment, this assumption is met because the trials are not related to each other and each trial's bread type was picked randomly.
+
+
+[Normality]{.underline}
+
+The pairwise Shapiro-Wilk test tests the normality of each Bread type. Below are the null and alternative hypotheses. 
+
+H$_{0}$: The number of ants across the certain Bread type is normally distributed.
+
+H$_{a}$: The number of ants across the certain Bread type is not normally distributed.
+
+The results above show that the p-values of each pair were:
+
+MultiGrain: 0.61
+
+Rye: 0.82
+
+White: 0.36
+
+WholeWheat: 0.81
+
+Since each group has a p-value above $\alpha$, 0.05, it is evident that at the 5% level, each group of Bread is normally distributed.
+
+Some of the histograms of each bread type above can also help us visually confirm this, although some of them do not appear as normal due to the small size of the data sets.
+
+
+[Homogeneity of Variance:]{.underline}
+
+For the next assumption, we check the equality of variances for each treatment. Below are the hypotheses.
+
+$\sigma_{1}$ = Variance of number of Ants found on MultiGrain bread.
+
+$\sigma_{2}$ = Variance of number of Ants found on Rye bread.
+
+$\sigma_{3}$ = Variance of number of Ants found on White bread.
+
+$\sigma_{4}$ = Variance of number of Ants found on WholeWheat bread.
+
+H$_{0}$: $\sigma_{1}$ = $\sigma_{2}$ = $\sigma_{3}$ = $\sigma_{4}$; The variance of number of ants found on each type of bread is equal.
+
+H$_{a}$: At least one type of bread has a different variance of number of ants compared to the others.
+
+F = 0.527   df = 3   p-value = 0.67
+
+Since the p-value is greater than 0.05, we have evidence that the variance of each group is equal.
+
+It is appropriate to use this test because all assumptions are met.
+
+# Part 1d: Post-hoc tests 
+Run both post-hoc tests, if necessary and interpret the results. Be sure to write out your conclusions explicitly.  Use alpha = 5%. If it is not necessary to run the post-hoc tests explain why. 
+
+## Part 1d Code
+```{r}
+
+# no code necessary
+
+```
+
+## Part 1d Analysis
+Interpret the results of the post-hoc tests. Be sure to write out your conclusions explicitly.  Use alpha = 5%. If it is not necessary to run the post-hoc tests explain why. 
+
+There is no need to run post-hoc tests for Problem #1 because our one-way ANOVA test indicates no differences in the average number of ants found on a certain bread type.
+
+\vspace{.2in}
+# Problem 2 (40 points)
+
+In this problem, we wish to examine if there is a difference in the average number of ants based on type of filling.
+
+
+# Part 2a: Exploratory Analysis
+Get numerical and graphical summaries of the number of ants for the different types of filling. Based on this exploratory analysis does there appear to be a relationship between filling type and number of ants? Explain. [Include all code used.]
+
+## Part 2a Code
+
+```{r}
+
+# pairwise summaries
+tapply(Ants, Filling, summary)
+
+# pairwise standard deviations
+tapply(Ants, Filling, sd)
+
+#pairwise length
+tapply(Ants, Filling, length)
+
+#plots
+boxplot(Ants~Filling)
+barplot(tapply(Ants, Filling, mean))
+
+```
+
+## Part 2a: Analysis
+Based on this exploratory analysis does there appear to be a relationship between filling type and number of ants? Explain. 
+
+Upon this initial exploratory analysis, it is extremely evident that there is a significant relationship between filling type and number of ants observed.
+
+Right away, we can see in the numerical summary that Ham and Pickles has a mean of 55.5, PeanutButter has a mean of 40.2, and Vegemite has a mean of 34.6. The large difference in these means will likely prove to be significant in testing.
+
+The pairwise standard deviations show PeanutButter filling having the highest standard deviation.
+
+The pairwise lengths show 16 trials in each sandwich filling group.
+
+The pairwise boxplots help show the significantly different average number of ants observed on each type of sandwich filling. The trial of the highest number of ants seen on PeanutButter and Vegemite are only about the average number of ants seen on HamPickles sandwiches.
+
+It seems very likely that there will be a relationship between filling type and number of ants.
+
+
+\vspace{.2in}
+
+# Part 2b: Hypothesis Test
+At the 5% level, is there evidence of a difference in the average number of ants based on type of filling? Set up the null and alternative hypotheses and define the unknown parameters and summarize the results of the test in a sentence. 
+
+## Part 2b Code
+```{r}
+
+results = aov(Ants ~ Filling)
+summary(results)
+
+```
+
+## Part 2b Analysis
+Be sure to give the null and alternative hypotheses and define the unknown parameters and summarize the results of the test in a sentence. 
+
+$\mu_{1}$ = Average Number of Ants found on HamPickles filling.
+
+$\mu_{2}$ = Average Number of Ants found on PeanutButter filling.
+
+$\mu_{3}$ = Average Number of Ants found on Vegemite filling.
+
+H$_{0}$: $\mu_{1}$ = $\mu_{2}$ = $\mu_{3}$ = $\mu_{4}$; The average number of ants found on each type of filling is equal.
+
+H$_{a}$: At least one type of filling has a different average number of ants compared to the others.
+
+F = 11.85  df = 2  p-value = 7.35e-05
+
+Since the one-way ANOVA test yields a p-value of 7.35e-05, we reject H0.
+
+At the 5% level, there is evidence that at least one type of filling has a different mean number of ants observed compared to the other types of filling.
+
+
+\vspace{.2in}
+
+# Part 2c: Checking the Assumptions 
+Check each of the assumptions (independence, normality and homogeneity of variance for this test) and state whether each condition is met or not.  Use a significance level of 5%.  Is it appropriate to use this test? Include relevant R codes.  
+
+## Part 2c Code
+```{r}
+
+# Independence
+# no code needed, given by the design of the experiment
+
+# Normality
+tapply(Ants, Filling, shapiro.test)
+hist(Ants[Filling == 'HamPickles'])
+hist(Ants[Filling == 'PeanutButter'])
+hist(Ants[Filling == 'Vegemite'])
+
+# Homogeneity of Variance 
+library(car)
+leveneTest(Ants, Filling)
+
+```
+
+
+
+## Part 2c Analysis
+State whether each condition is met or not.  Use a significance level of 5%. Is it appropriate to use this test?
+
+[Independence]{.underline}
+
+By design of the experiment, this assumption is met because the trials are not related to each other and each trial's filling type was picked randomly.
+
+
+[Normality]{.underline}
+
+The pairwise Shapiro-Wilk test tests the normality of each Filling type. Below are the null and alternative hypotheses. 
+
+H$_{0}$: The number of ants across the certain Filling type is normally distributed.
+
+H$_{a}$: The number of ants across the certain Filling type is not normally distributed.
+
+The results above show that the p-values of each pair were:
+
+HamPickles: 0.55
+
+PeanutButter: 0.15
+
+Vegemite: 0.55
+
+Since each group has a p-value above $\alpha$, 0.05, it is evident that at the 5% level, each group of Filling is normally distributed.
+
+The histograms of each Filling type also show that each distribution is approximately normal.
+
+
+[Homogeneity of Variance:]{.underline}
+
+For the next assumption, we check the equality of variances for each treatment. Below are the hypotheses.
+
+$\sigma_{1}$ = Variance of Ants found on HamPickles filling.
+
+$\sigma_{2}$ = Variance of Ants found on PeanutButter filling.
+
+$\sigma_{3}$ = Variance of Ants found on Vegemite filling.
+
+H$_{0}$: $\sigma_{1}$ = $\sigma_{2}$ = $\sigma_{3}$; The variance of number of ants found on each type of filling is equal.
+
+H$_{a}$: At least one type of filling has a different variance of number of ants compared to the others.
+
+F = 0.635   df = 2   p-value = 0.53
+
+Since the p-value is greater than 0.05, we have evidence that the variance of each group is equal.
+
+Since every assumption has been met, it is appropriate to use this test.
+
+
+\vspace{.2in}
+
+# Part 2d: Post-hoc tests 
+Run both post-hoc tests, if necessary and interpret the results. Be sure to write out your conclusions explicitly.  Use alpha = 5%. If it is not necessary to run the post-hoc tests explain why. 
+
+## Part 2d Code
+```{r}
+
+# pairwise t tests
+pairwise.t.test(Ants, Filling, p.adjust.method = "bonferroni")
+
+#tukey's honest significant difference test
+TukeyHSD(results, conf.level = 0.95)
+
+```
+
+## Part 2d Analysis
+Interpret the results of the post-hoc tests. Be sure to write out your conclusions explicitly.  Use alpha = 5%. If it is not necessary to run the post-hoc tests explain why. 
+
+The post-hoc tests help us determine exactly which means are different. The first method I used was the pairwise t-test. Below are the hypotheses for this test. There are 3 hypothesis tests that occur. They are listed after H$_{0}$ and H$_{a}$, respectively.
+
+$\mu_{1}$ = Average Number of Ants found on HamPickles filling.
+
+$\mu_{2}$ = Average Number of Ants found on PeanutButter filling.
+
+$\mu_{3}$ = Average Number of Ants found on Vegemite filling.
+
+H$_{0}$: $\mu_{1}$ = $\mu_{2}$; $\mu_{1}$ = $\mu_{3}$; $\mu_{2}$ = $\mu_{3}$
+
+H$_{a}$: $\mu_{1}$ $\neq$ $\mu_{2}$; $\mu_{1}$ $\neq$ $\mu_{3}$; $\mu_{2}$ $\neq$ $\mu_{3}$
+
+These are the resulting p-values:
+
+HamPickles & PeanutButter: 0.0041
+
+HamPickles & Vegemite: 7.2e-05
+
+PeanutButter & Vegemite: 0.6028
+
+P-values above $\alpha$ mean the two means are not significantly different. Therefore, at the 5% level, there is evidence that the average number of ants observed on PeanutButter and Vegemite fillings is not significantly different. There is also evidence at the 5% level that the average number of ants observed on HamPickles and PeanutButter and the average number of ants observed on HamPickles and Vegemite are significantly different.
+
+The second way to conduct the post-hoc tests is by Tukey's Honest Significant Difference Test. This test, conducted above, produced the same conclusions as the pairwise t-tests. Tukey's test uses the same exact hypotheses as the pairwise t-tests, stated above. Below are the resulting p-values:
+
+HamPickles & PeanutButter: 0.0038299
+
+HamPickles & Vegemite: 0.0000698
+
+PeanutButter & Vegemite: 0.4037366
+
+Like the pairwise t-tests, p-values above $\alpha$ mean the two means are not significantly different. Therefore, at the 5% level, there is evidence that the average number of ants observed on PeanutButter and Vegemite fillings is not significantly different. There is also evidence at the 5% level that the average number of ants observed on HamPickles and PeanutButter and the average number of ants observed on HamPickles and Vegemite are significantly different.
+
+\vspace{.2in}
+# Problem 3 (30 points)
+
+In this problem, we wish to examine if there is a difference in average number of ants based on whether the sandwich is buttered or not.
+
+# Part 3a: Exploratory Analysis
+Get numerical and graphical summaries of the number of ants for buttered and unbuttered sandwiches. Based on this exploratory analysis does there appear to be a relationship between number of ants and whether the sandwich is buttered? Explain. [Include all code used.]
+
+## Part 3a Code
+
+```{r}
+
+# pairwise summaries
+tapply(Ants, Butter, summary)
+
+# pairwise standard deviations
+tapply(Ants, Butter, sd)
+
+#pairwise length
+tapply(Ants, Butter, length)
+
+#plots
+boxplot(Ants~Butter)
+barplot(tapply(Ants, Butter, mean))
+
+```
+
+## Part 3a Analysis
+Based on this exploratory analysis does there appear to be a relationship between the number of ants and whether the bread is buttered? Explain. 
+
+Upon this initial exploratory analysis, it is seems very likely that there is a significant relationship between the sandwiches having butter or not and number of ants observed.
+
+The summary tells us that the mean number of ants for butter is 48.9 and the mean number of ants for no butter is 38.1.
+
+The pairwise standard deviations show similar standard deviations between butter and no butter.
+
+The pairwise lengths show 24 trials in each butter and no butter.
+
+The pairwise boxplots help show the large difference in average number of ants observed on buttered sandwiches and non buttered sandwiches.
+
+It seems very likely that there will be a relationship between butter or no butter and number of ants observed.
+
+
+\vspace{.2in}
+# Part 3b: Hypothesis Test
+At the 5% level, is there evidence of a difference in the average number of ants based on whether the sandwich is buttered? Set up the null and alternative hypotheses and define the unknown parameters and summarize the results of the test in a sentence. 
+
+## Part 3b Code
+```{r}
+
+# seeing whether to use a pooled or unpooled two sample t-test
+var.test(Ants ~ Butter)
+
+# pooled two sample t-test
+t.test(Ants~Butter, mu = 0, var.equal = TRUE, alternative = "two.sided")
+
+```
+
+## Part 3b Analysis
+Be sure to give the null and alternative hypotheses and define the unknown parameters and summarize the results of the test in a sentence. Explain what test you used. (Think carefully about this!)
+
+To test if there is a difference in ants observed on buttered sandwiches and non buttered sandwiches, I used a two sample t-test, since an ANOVA test is not necessary. I first ran var.test to determine whether to use a pooled or unpooled test. Below is the variance test:
+
+$\sigma_{1}$ = Variance of Ants found on buttered sandwiches.
+
+$\sigma_{2}$ = Variance of Ants found on non buttered sandwiches.
+
+H$_{0}$: $\sigma_{1}$ = $\sigma_{2}$; The variance of number of ants found on each type of sandwich is equal.
+
+H$_{a}$: $\sigma_{1}$ $\neq$ $\sigma_{2}$; The variances are different.
+
+F = 0.94 df = 23 p-val = 0.88
+
+Since the p-value is 0.88 and above $\alpha$, we have evidence that the variances are equal and know to use a pooled two sample t-test. Below are the hypotheses for the test:
+
+$\mu_{1}$ = Average Number of Ants found on buttered sandwiches.
+
+$\mu_{2}$ = Average Number of Ants found on non buttered sandwiches.
+
+H$_{0}$: $\mu_{1}$ = $\mu_{2}$; The average number of ants found on buttered sandwichs is equal to the average number of ants observed on non buttered sandwiches.
+
+H$_{a}$: $\mu_{1}$ $\neq$ $\mu_{2}$; The average number of ants observed on each sandwich type is different.
+
+t = -2.61 df = 46 p-val = 0.012
+
+At the 5% level, there is evidence to support that $\mu_{1}$ $\neq$ $\mu_{2}$ or the average number of ants observed on buttered sandwiches differs than that observed on non buttered sandwiches.
+
+
+\vspace{.2in}
+
+# Part 3c: Checking the Assumptions 
+Check each of the assumptions for the test. Use a significance level of 5%.  Is it appropriate to use this test? Include relevant R codes.  
+
+## Part 3c Code
+```{r}
+
+# 5 - Each pop distribution is approximately normal
+tapply(Ants, Butter, shapiro.test)
+hist(Ants[Butter == 'yes'])
+hist(Ants[Butter == 'no'])
+
+```
+
+## Part 3c Analysis
+State whether each condition of the test is met or not.  Use a significance level of 5%. Is it appropriate to use this test?
+
+1 - Two independent populations with unknown means $\mu_{1}$ and $\mu_{2}$.
+
+This assumption is given by the problem statement. We know that the populations are independent and have unknown means.
+
+2 - Assumed the two population standard deviations are normal
+
+This condition was proved correct earlier in the problem when I used var.test.
+
+3 - Samples from each sample are randomly selected
+
+This condition is also given by the problem statement. Random anthills were assigned random sandwiches.
+
+4 - $n_{1}$ and $n_{2}$ are < 10% of their respective population sizes.
+
+It is safe to assume that $n_{1}$ and $n_{2}$, which are each 24, are less than the number of anthills in the world.
+
+5 - Each population distribution is approximately normal.
+
+This condition is proved using the Shapiro-Wilk Test above as well as looking at histograms which are above as well.
+
+Since the Shapiro test yields p-values of 0.3 and 0.67, there is evidence at the 5% level that each population is normally distributed. The histograms for butter and no butter also support a normal distribution in  each.
+
+Since each condition of the test is met, it can be said that this is an appropriate test to use.
+
+
+ *** 
+ End of Problem Set
+

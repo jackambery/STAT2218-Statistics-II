@@ -1,0 +1,965 @@
+fage,mage,child,weeks,visits,calories,marital,gained,weight,lowbirthweight,gender,mature,premie,habit,whitemom,work
+14,16,other,40,12,890,not married,9,5.81,not low,female,younger mom,full term,smoker,white,FT
+16,16,first,24,5,1460,not married,12,1.5,low,male,younger mom,premie,nonsmoker,not white,FT
+17,17,second,29,4,1480,not married,10,2.63,low,female,younger mom,premie,nonsmoker,not white,FT
+17,15,other,35,5,1910,not married,15,4.69,low,male,younger mom,premie,nonsmoker,not white,FT
+17,20,second,39,16,1100,not married,35,5.63,not low,female,younger mom,full term,nonsmoker,not white,FT
+17,17,second,38,12,1740,not married,22,6.06,not low,male,younger mom,full term,nonsmoker,not white,FT
+18,17,other,31,6,1300,not married,1,1.56,low,female,younger mom,premie,nonsmoker,white,FT
+18,20,second,38,8,1510,married,34,5.75,not low,female,younger mom,full term,nonsmoker,white,FT
+18,17,second,37,10,720,not married,39,6.19,not low,female,younger mom,full term,nonsmoker,not white,FT
+18,18,first,39,11,840,not married,60,6.63,not low,female,younger mom,full term,nonsmoker,not white,FT
+18,21,other,39,14,1650,married,28,6.94,not low,male,younger mom,full term,nonsmoker,white,None
+18,17,second,35,12,960,not married,25,7.25,not low,male,younger mom,premie,nonsmoker,not white,PT 
+18,20,second,39,10,1220,not married,35,7.88,not low,male,younger mom,full term,nonsmoker,not white,None
+18,20,second,40,10,2510,not married,28,8.13,not low,male,younger mom,full term,nonsmoker,white,None
+18,21,other,40,15,2130,not married,37,8.19,not low,male,younger mom,full term,nonsmoker,not white,PT
+18,15,second,37,12,1780,not married,76,8.44,not low,male,younger mom,full term,nonsmoker,not white,PT 
+19,20,other,34,13,1400,not married,6,4.5,low,male,younger mom,premie,nonsmoker,not white,FT
+19,17,first,35,3,1820,not married,30,6.38,not low,male,younger mom,premie,nonsmoker,white,FT
+19,20,first,33,0,1430,married,23,6.38,not low,female,younger mom,premie,nonsmoker,not white,FT
+19,15,first,37,11,960,not married,38,6.63,not low,female,younger mom,full term,nonsmoker,white,FT
+19,19,other,38,6,1780,not married,40,6.94,not low,male,younger mom,full term,nonsmoker,not white,None
+19,19,first,37,0,1280,not married,12,6.94,not low,male,younger mom,full term,smoker,white,PT 
+19,17,first,36,15,1380,not married,25,7,not low,male,younger mom,premie,nonsmoker,not white,PT
+19,19,second,36,10,1910,married,35,7.25,not low,male,younger mom,premie,nonsmoker,not white,None
+19,24,other,40,11,710,not married,70,8.5,not low,female,younger mom,full term,nonsmoker,white,None
+20,17,second,29,6,700,not married,35,4.56,low,male,younger mom,premie,nonsmoker,not white,FT
+20,24,second,38,11,1530,not married,50,5.75,not low,male,younger mom,full term,smoker,not white,FT
+20,18,other,38,14,1520,married,56,5.88,not low,female,younger mom,full term,nonsmoker,not white,FT
+20,19,first,40,15,1420,married,30,5.94,not low,male,younger mom,full term,nonsmoker,not white,FT
+20,20,second,37,12,1910,married,22,5.94,not low,female,younger mom,full term,nonsmoker,white,FT
+20,17,second,39,9,2430,not married,36,6,not low,male,younger mom,full term,nonsmoker,not white,FT
+20,23,first,39,10,1540,not married,30,6.06,not low,male,younger mom,full term,nonsmoker,white,FT
+20,18,second,40,11,1430,not married,28,6.63,not low,female,younger mom,full term,nonsmoker,white,FT
+20,19,other,38,17,1260,not married,51,6.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+20,16,other,37,13,930,not married,52,6.94,not low,female,younger mom,full term,nonsmoker,white,PT
+20,18,second,38,6,1380,not married,48,7,not low,female,younger mom,full term,nonsmoker,white,PT 
+20,18,first,41,9,1430,not married,18,7,not low,female,younger mom,full term,nonsmoker,not white,None
+20,17,first,40,17,1740,not married,38,7.19,not low,male,younger mom,full term,nonsmoker,white,PT
+20,20,other,40,3,1210,married,18,7.19,not low,female,younger mom,full term,nonsmoker,white,None
+20,21,first,43,15,1130,married,17,7.19,not low,female,younger mom,full term,nonsmoker,not white,PT 
+20,23,first,39,15,2100,married,56,7.31,not low,male,younger mom,full term,smoker,white,None
+20,18,other,43,8,1640,not married,50,7.31,not low,female,younger mom,full term,nonsmoker,not white,PT 
+20,17,second,40,10,1270,not married,68,7.44,not low,male,younger mom,full term,nonsmoker,not white,PT
+20,20,first,41,12,1220,not married,24,7.5,not low,female,younger mom,full term,smoker,white,PT 
+20,18,other,38,15,1320,not married,50,8.06,not low,female,younger mom,full term,smoker,white,PT 
+20,17,first,40,8,1250,not married,20,8.25,not low,female,younger mom,full term,nonsmoker,white,PT
+20,18,second,38,13,1010,not married,60,8.31,not low,male,younger mom,full term,nonsmoker,white,PT 
+20,19,first,41,15,1700,not married,25,8.31,not low,male,younger mom,full term,nonsmoker,white,None
+20,20,other,38,12,1190,not married,25,8.31,not low,male,younger mom,full term,nonsmoker,not white,PT
+20,20,second,40,15,1510,not married,46,8.38,not low,male,younger mom,full term,nonsmoker,white,PT
+21,21,other,29,4,900,not married,13,2.5,low,female,younger mom,premie,nonsmoker,white,FT
+21,19,first,37,8,1480,not married,35,4.69,low,female,younger mom,full term,nonsmoker,not white,FT
+21,21,second,37,15,1100,not married,20,5.06,low,female,younger mom,full term,smoker,not white,FT
+21,23,other,33,5,2060,not married,30,5.44,low,male,younger mom,premie,nonsmoker,white,FT
+21,18,other,40,13,710,not married,10,5.5,low,female,younger mom,full term,nonsmoker,white,FT
+21,18,first,36,8,1010,not married,10,5.5,low,male,younger mom,premie,nonsmoker,white,FT
+21,20,second,40,14,1320,married,23,5.63,not low,female,younger mom,full term,nonsmoker,white,FT
+21,22,first,40,10,1190,not married,85,5.81,not low,male,younger mom,full term,nonsmoker,not white,FT
+21,22,first,39,16,1630,not married,45,6,not low,female,younger mom,full term,nonsmoker,white,FT
+21,20,other,41,14,1270,married,29,6.06,not low,female,younger mom,full term,nonsmoker,not white,FT
+21,19,first,41,15,1500,not married,55,6.25,not low,male,younger mom,full term,nonsmoker,not white,FT
+21,20,first,38,15,1660,not married,30,6.31,not low,female,younger mom,full term,nonsmoker,not white,FT
+21,20,other,37,23,1160,married,40,6.38,not low,female,younger mom,full term,nonsmoker,white,FT
+21,21,second,38,10,1390,married,35,6.5,not low,female,younger mom,full term,nonsmoker,white,FT
+21,20,first,38,8,1510,married,35,6.75,not low,male,younger mom,full term,nonsmoker,not white,PT
+21,20,first,37,10,1550,not married,18,6.75,not low,male,younger mom,full term,nonsmoker,not white,None
+21,19,second,39,15,2010,not married,38,6.88,not low,male,younger mom,full term,nonsmoker,not white,PT 
+21,24,second,40,18,1180,married,35,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+21,20,second,40,9,2160,married,30,7.31,not low,male,younger mom,full term,nonsmoker,white,None
+21,18,first,37,15,630,not married,23,7.31,not low,male,younger mom,full term,nonsmoker,white,PT
+21,18,other,38,16,1560,not married,40,7.44,not low,female,younger mom,full term,nonsmoker,white,PT 
+21,20,first,40,12,2040,married,14,7.44,not low,female,younger mom,full term,nonsmoker,not white,None
+21,19,first,39,12,1480,not married,50,7.5,not low,male,younger mom,full term,nonsmoker,white,PT
+21,20,other,38,14,1270,married,20,7.5,not low,female,younger mom,full term,nonsmoker,not white,None
+21,16,first,38,15,1360,not married,75,7.56,not low,female,younger mom,full term,smoker,white,PT
+21,21,other,35,15,1640,married,31,7.56,not low,female,younger mom,premie,nonsmoker,white,None
+21,20,second,42,11,1900,not married,45,7.75,not low,male,younger mom,full term,nonsmoker,white,PT
+21,18,second,41,10,1700,not married,30,7.75,not low,male,younger mom,full term,nonsmoker,not white,None
+21,15,other,41,6,1200,not married,34,8,not low,male,younger mom,full term,nonsmoker,white,None
+21,22,other,39,9,1060,married,50,8.38,not low,female,younger mom,full term,smoker,white,PT 
+21,19,second,41,13,2370,not married,38,8.38,not low,female,younger mom,full term,nonsmoker,white,None
+21,22,first,40,18,940,married,30,8.44,not low,male,younger mom,full term,nonsmoker,white,None
+21,22,other,39,15,1940,married,80,8.56,not low,female,younger mom,full term,nonsmoker,white,None
+21,20,second,38,10,660,married,50,8.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+21,20,first,38,10,1140,not married,40,8.81,not low,male,younger mom,full term,nonsmoker,white,None
+21,25,other,39,15,1590,not married,30,9.06,not low,male,younger mom,full term,smoker,not white,None
+21,18,second,41,13,880,not married,28,9.06,not low,male,younger mom,full term,nonsmoker,not white,PT
+21,21,other,45,10,1770,married,40,9.13,not low,male,younger mom,full term,smoker,white,None
+21,19,other,40,11,1700,married,23,9.25,not low,female,younger mom,full term,nonsmoker,white,None
+22,20,second,32,5,1530,not married,40,2.69,low,male,younger mom,premie,smoker,white,FT
+22,20,other,34,14,2060,married,13,4.13,low,male,younger mom,premie,smoker,white,FT
+22,18,first,33,9,2320,not married,4,4.44,low,male,younger mom,premie,nonsmoker,white,FT
+22,23,other,36,11,1080,married,15,5.13,low,female,younger mom,premie,nonsmoker,not white,FT
+22,21,other,37,19,1410,not married,30,5.44,low,female,younger mom,full term,nonsmoker,not white,FT
+22,21,other,37,5,2110,married,30,5.88,not low,female,younger mom,full term,nonsmoker,white,FT
+22,24,second,39,10,1040,married,35,5.94,not low,male,younger mom,full term,nonsmoker,NA,FT
+22,21,other,38,14,730,not married,36,6.38,not low,female,younger mom,full term,nonsmoker,white,FT
+22,22,first,40,13,2110,married,0,6.5,not low,male,younger mom,full term,smoker,white,FT
+22,20,other,37,8,2080,not married,27,6.69,not low,female,younger mom,full term,smoker,not white,FT
+22,21,first,39,8,1610,not married,27,6.75,not low,female,younger mom,full term,nonsmoker,white,None
+22,20,other,43,10,410,married,10,6.88,not low,female,younger mom,full term,nonsmoker,white,None
+22,21,other,40,15,1740,not married,22,6.94,not low,female,younger mom,full term,nonsmoker,not white,None
+22,22,second,40,15,2380,not married,31,7.06,not low,female,younger mom,full term,nonsmoker,white,None
+22,18,first,39,14,1280,not married,23,7.06,not low,female,younger mom,full term,nonsmoker,not white,PT
+22,22,first,39,14,1690,married,29,7.19,not low,female,younger mom,full term,nonsmoker,white,PT 
+22,20,second,38,14,1440,not married,24,7.19,not low,female,younger mom,full term,nonsmoker,white,None
+22,26,first,39,12,1380,married,31,7.31,not low,male,younger mom,full term,smoker,white,PT
+22,22,first,40,14,2410,not married,23,7.31,not low,female,younger mom,full term,nonsmoker,not white,None
+22,24,second,39,14,910,married,18,7.31,not low,female,younger mom,full term,nonsmoker,not white,PT 
+22,20,first,38,8,2170,married,45,7.44,not low,female,younger mom,full term,nonsmoker,white,None
+22,22,second,41,11,1320,married,31,7.69,not low,female,younger mom,full term,nonsmoker,white,PT 
+22,21,second,38,16,1870,married,30,7.69,not low,female,younger mom,full term,smoker,white,None
+22,19,second,38,15,1320,not married,30,7.69,not low,male,younger mom,full term,nonsmoker,white,PT
+22,21,second,38,12,860,married,47,7.75,not low,female,younger mom,full term,nonsmoker,white,None
+22,22,first,39,11,1950,married,34,8.19,not low,female,younger mom,full term,nonsmoker,white,None
+22,20,first,43,11,1160,not married,55,8.44,not low,male,younger mom,full term,nonsmoker,not white,PT 
+22,20,second,38,13,530,married,35,8.44,not low,male,younger mom,full term,nonsmoker,white,None
+22,23,other,38,10,700,married,20,8.44,not low,female,younger mom,full term,nonsmoker,white,PT
+22,23,other,38,10,1520,not married,54,8.69,not low,male,younger mom,full term,nonsmoker,not white,PT
+22,20,first,41,11,1010,married,52,9,not low,female,younger mom,full term,nonsmoker,not white,PT 
+22,34,first,39,12,1470,married,57,9.69,not low,male,younger mom,full term,nonsmoker,not white,None
+22,29,first,39,17,1620,married,25,9.75,not low,male,younger mom,full term,nonsmoker,not white,None
+22,20,second,39,14,2540,married,25,9.94,not low,male,younger mom,full term,nonsmoker,white,None
+23,32,other,36,18,870,married,10,4.44,low,male,younger mom,premie,smoker,white,FT
+23,28,second,39,13,1830,not married,34,5.69,not low,female,younger mom,full term,nonsmoker,white,FT
+23,18,other,37,6,1300,married,35,5.81,not low,female,younger mom,full term,nonsmoker,white,FT
+23,20,first,39,0,1570,not married,70,5.94,not low,female,younger mom,full term,nonsmoker,not white,FT
+23,29,other,36,12,710,not married,30,6,not low,female,younger mom,premie,nonsmoker,not white,FT
+23,19,second,37,18,2220,married,46,6.06,not low,female,younger mom,full term,nonsmoker,white,FT
+23,22,second,37,10,1720,married,30,6.38,not low,male,younger mom,full term,nonsmoker,not white,FT
+23,26,second,40,4,2180,not married,15,6.75,not low,male,younger mom,full term,nonsmoker,white,PT 
+23,22,second,37,14,1280,married,56,7,not low,male,younger mom,full term,nonsmoker,white,None
+23,25,first,34,11,870,married,40,7.13,not low,male,younger mom,premie,smoker,white,PT 
+23,20,other,39,13,1230,not married,33,7.25,not low,male,younger mom,full term,nonsmoker,not white,PT
+23,25,other,37,14,1870,married,33,7.31,not low,female,younger mom,full term,smoker,white,PT 
+23,23,other,40,13,1670,married,9,7.31,not low,male,younger mom,full term,nonsmoker,not white,None
+23,22,other,43,15,1800,married,26,7.44,not low,female,younger mom,full term,nonsmoker,white,PT
+23,22,other,39,15,1870,married,50,7.5,not low,male,younger mom,full term,nonsmoker,white,PT 
+23,23,second,37,10,1370,not married,33,7.5,not low,male,younger mom,full term,nonsmoker,white,None
+23,21,second,40,15,1960,married,38,7.63,not low,female,younger mom,full term,nonsmoker,white,PT 
+23,23,other,40,9,1490,not married,24,7.63,not low,female,younger mom,full term,nonsmoker,not white,None
+23,25,other,37,8,1640,married,53,7.69,not low,female,younger mom,full term,nonsmoker,white,None
+23,22,other,37,15,2020,married,20,7.81,not low,male,younger mom,full term,smoker,white,None
+23,20,first,41,11,1470,not married,47,8,not low,female,younger mom,full term,nonsmoker,white,None
+23,25,second,41,12,1740,married,20,8,not low,female,younger mom,full term,nonsmoker,white,PT
+23,21,second,39,10,870,not married,55,8.06,not low,male,younger mom,full term,nonsmoker,white,None
+23,28,second,40,11,1200,not married,20,8.13,not low,male,younger mom,full term,nonsmoker,white,PT 
+23,23,first,36,18,2160,not married,30,8.56,not low,male,younger mom,premie,nonsmoker,white,PT 
+24,25,first,29,10,1240,not married,0,1.69,low,male,younger mom,premie,nonsmoker,not white,FT
+24,20,other,39,12,1330,married,55,5.25,low,female,younger mom,full term,smoker,white,FT
+24,21,second,34,15,1610,not married,16,5.44,low,male,younger mom,premie,nonsmoker,not white,FT
+24,28,second,39,15,950,married,33,5.56,not low,female,younger mom,full term,nonsmoker,white,FT
+24,29,first,35,10,1860,not married,40,5.94,not low,female,younger mom,premie,smoker,white,FT
+24,22,other,39,11,1720,married,27,6,not low,male,younger mom,full term,smoker,white,FT
+24,18,other,37,8,520,not married,25,6.19,not low,male,younger mom,full term,smoker,not white,FT
+24,25,second,37,15,1530,not married,20,6.31,not low,male,younger mom,full term,nonsmoker,not white,FT
+24,23,second,37,12,1810,married,30,6.44,not low,female,younger mom,full term,nonsmoker,white,FT
+24,22,second,42,7,1850,not married,21,6.5,not low,female,younger mom,full term,nonsmoker,white,FT
+24,24,other,38,17,670,not married,13,6.56,not low,female,younger mom,full term,nonsmoker,not white,FT
+24,23,second,39,13,1310,married,30,6.69,not low,female,younger mom,full term,nonsmoker,white,FT
+24,27,second,39,15,1560,not married,42,6.75,not low,female,younger mom,full term,smoker,not white,None
+24,21,other,39,14,1860,not married,2,6.81,not low,male,younger mom,full term,nonsmoker,not white,None
+24,22,first,40,16,2070,married,34,6.88,not low,female,younger mom,full term,smoker,white,PT
+24,18,first,40,14,810,married,47,7.06,not low,female,younger mom,full term,smoker,white,PT 
+24,20,other,41,16,470,not married,35,7.19,not low,male,younger mom,full term,nonsmoker,white,PT 
+24,20,second,38,9,1560,not married,25,7.19,not low,female,younger mom,full term,nonsmoker,white,None
+24,22,other,37,10,1180,not married,17,7.19,not low,female,younger mom,full term,nonsmoker,white,PT
+24,22,other,39,5,1350,not married,10,7.19,not low,female,younger mom,full term,nonsmoker,white,None
+24,28,second,39,12,2390,not married,43,7.25,not low,male,younger mom,full term,nonsmoker,not white,None
+24,25,first,41,14,1890,not married,30,7.38,not low,female,younger mom,full term,nonsmoker,white,None
+24,20,other,41,15,2630,not married,60,7.44,not low,male,younger mom,full term,nonsmoker,white,PT 
+24,21,first,40,10,2580,married,25,7.44,not low,male,younger mom,full term,nonsmoker,white,None
+24,22,first,39,15,2150,not married,45,7.5,not low,male,younger mom,full term,nonsmoker,not white,None
+24,21,other,41,10,2250,not married,60,7.63,not low,female,younger mom,full term,nonsmoker,not white,None
+24,23,first,41,15,1720,married,25,7.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+24,23,other,38,13,1680,not married,22,7.81,not low,female,younger mom,full term,nonsmoker,white,PT
+24,21,second,41,13,1150,married,40,7.88,not low,female,younger mom,full term,nonsmoker,white,PT
+24,25,second,40,15,1740,not married,36,7.94,not low,male,younger mom,full term,nonsmoker,white,PT
+24,18,first,40,15,950,married,57,8,not low,female,younger mom,full term,nonsmoker,white,None
+24,19,second,40,4,1880,not married,55,8,not low,female,younger mom,full term,nonsmoker,white,PT 
+24,25,first,42,18,980,not married,33,8.06,not low,female,younger mom,full term,nonsmoker,white,PT
+24,19,first,40,12,1460,not married,36,8.19,not low,male,younger mom,full term,nonsmoker,white,PT 
+24,25,second,38,22,1400,married,35,8.31,not low,female,younger mom,full term,nonsmoker,white,None
+24,22,second,39,12,2190,not married,32,8.38,not low,male,younger mom,full term,nonsmoker,not white,None
+25,26,other,33,10,820,married,13,3.44,low,male,younger mom,premie,nonsmoker,white,FT
+25,22,other,34,10,1140,married,20,3.75,low,male,younger mom,premie,nonsmoker,white,FT
+25,24,first,37,12,1630,married,45,5.88,not low,female,younger mom,full term,nonsmoker,white,FT
+25,22,other,34,13,1880,married,35,5.88,not low,female,younger mom,premie,nonsmoker,not white,FT
+25,25,second,38,10,2150,not married,35,5.94,not low,female,younger mom,full term,smoker,white,FT
+25,20,other,38,15,1310,married,31,6.06,not low,female,younger mom,full term,nonsmoker,white,FT
+25,18,first,40,6,2350,married,20,6.19,not low,male,younger mom,full term,nonsmoker,white,FT
+25,22,other,39,12,1620,married,27,6.31,not low,female,younger mom,full term,smoker,white,FT
+25,20,first,39,8,1230,not married,23,6.69,not low,male,younger mom,full term,nonsmoker,white,FT
+25,21,first,40,16,1000,married,26,6.88,not low,female,younger mom,full term,nonsmoker,white,PT 
+25,22,first,39,14,1960,married,11,6.88,not low,male,younger mom,full term,nonsmoker,not white,None
+25,26,second,41,12,1320,not married,20,7.06,not low,male,younger mom,full term,nonsmoker,white,None
+25,23,first,39,15,1310,married,30,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+25,24,second,41,16,1200,married,37,7.19,not low,female,younger mom,full term,nonsmoker,not white,None
+25,26,second,38,9,2280,married,43,7.31,not low,female,younger mom,full term,smoker,not white,None
+25,28,other,39,12,1110,married,47,7.38,not low,male,younger mom,full term,nonsmoker,white,PT 
+25,26,first,43,9,1930,married,23,7.44,not low,female,younger mom,full term,nonsmoker,white,None
+25,25,first,38,19,1690,married,13,7.63,not low,female,younger mom,full term,nonsmoker,white,PT
+25,21,other,38,14,1400,married,0,7.69,not low,male,younger mom,full term,nonsmoker,not white,PT
+25,18,other,42,11,1340,not married,35,7.81,not low,female,younger mom,full term,nonsmoker,white,None
+25,18,other,41,17,1740,married,33,7.88,not low,male,younger mom,full term,smoker,white,None
+25,28,second,38,10,1640,married,40,7.94,not low,female,younger mom,full term,smoker,white,None
+25,19,second,40,16,600,not married,37,7.94,not low,male,younger mom,full term,smoker,not white,PT 
+25,25,second,39,18,1560,married,28,7.94,not low,male,younger mom,full term,nonsmoker,white,None
+25,21,other,39,8,570,not married,32,8.06,not low,male,younger mom,full term,nonsmoker,white,None
+25,34,other,41,10,1120,not married,35,8.19,not low,female,younger mom,full term,nonsmoker,white,None
+25,19,second,41,13,1540,not married,47,8.38,not low,male,younger mom,full term,smoker,white,None
+25,26,second,39,12,1110,married,40,8.38,not low,male,younger mom,full term,nonsmoker,white,PT
+25,24,first,40,15,2160,married,29,8.5,not low,female,younger mom,full term,nonsmoker,white,PT
+25,20,second,42,15,1210,married,35,8.56,not low,male,younger mom,full term,nonsmoker,white,None
+25,30,other,43,11,1990,not married,47,8.75,not low,male,younger mom,full term,nonsmoker,white,PT
+25,25,second,38,12,1520,married,24,8.75,not low,female,younger mom,full term,nonsmoker,white,None
+25,21,other,39,10,970,married,18,9.56,not low,male,younger mom,full term,nonsmoker,white,None
+25,23,first,41,15,1590,married,30,9.88,not low,male,younger mom,full term,nonsmoker,white,PT
+25,24,first,39,10,1760,married,20,10.06,not low,male,younger mom,full term,nonsmoker,white,None
+26,38,first,20,5,1690,not married,30,1.38,low,female,mature mom,premie,nonsmoker,not white,FT
+26,22,second,38,6,950,married,10,5.44,low,male,younger mom,full term,nonsmoker,white,FT
+26,24,second,38,9,2640,married,35,5.94,not low,female,younger mom,full term,nonsmoker,white,FT
+26,19,other,36,12,1250,not married,24,6.19,not low,female,younger mom,premie,smoker,not white,FT
+26,20,first,41,16,320,married,21,6.31,not low,female,younger mom,full term,smoker,white,FT
+26,29,first,37,12,1510,not married,12,6.31,not low,female,younger mom,full term,nonsmoker,white,FT
+26,23,second,36,12,1810,married,30,6.44,not low,male,younger mom,premie,nonsmoker,not white,FT
+26,27,second,39,8,1540,married,20,6.63,not low,male,younger mom,full term,nonsmoker,not white,FT
+26,23,other,36,18,1840,married,20,6.69,not low,female,younger mom,premie,nonsmoker,not white,FT
+26,25,second,39,9,1240,married,25,6.75,not low,male,younger mom,full term,nonsmoker,not white,None
+26,23,other,42,14,1210,married,23,6.75,not low,male,younger mom,full term,nonsmoker,not white,PT
+26,23,other,38,15,960,married,29,6.88,not low,female,younger mom,full term,nonsmoker,not white,None
+26,25,first,39,16,1430,married,0,6.94,not low,female,younger mom,full term,nonsmoker,not white,PT 
+26,25,other,40,10,2230,married,25,7,not low,male,younger mom,full term,nonsmoker,white,PT
+26,23,second,38,5,1380,not married,28,7.19,not low,female,younger mom,full term,nonsmoker,white,PT
+26,23,other,35,14,1430,married,23,7.25,not low,female,younger mom,premie,nonsmoker,white,PT 
+26,23,first,41,10,1120,married,40,7.31,not low,female,younger mom,full term,smoker,white,PT
+26,28,first,39,16,2200,married,18,7.44,not low,female,younger mom,full term,smoker,white,PT
+26,22,second,40,14,1940,married,32,7.5,not low,male,younger mom,full term,nonsmoker,white,PT 
+26,21,first,44,11,1680,married,15,7.5,not low,female,younger mom,full term,nonsmoker,white,None
+26,22,second,41,18,940,not married,1,7.5,not low,female,younger mom,full term,nonsmoker,white,PT
+26,24,first,39,14,1300,married,36,7.63,not low,female,younger mom,full term,nonsmoker,white,None
+26,26,second,42,15,1240,married,36,7.69,not low,male,younger mom,full term,nonsmoker,white,PT 
+26,22,other,39,9,2170,married,32,7.69,not low,male,younger mom,full term,nonsmoker,white,None
+26,34,first,39,16,1350,married,15,7.88,not low,female,younger mom,full term,nonsmoker,not white,PT 
+26,22,other,39,10,1680,not married,45,7.94,not low,female,younger mom,full term,nonsmoker,white,None
+26,25,first,38,10,910,married,26,7.94,not low,male,younger mom,full term,nonsmoker,white,PT
+26,21,other,38,9,1450,not married,23,8.13,not low,female,younger mom,full term,nonsmoker,white,None
+26,23,second,43,15,1050,not married,35,8.19,not low,female,younger mom,full term,nonsmoker,not white,PT
+26,22,second,40,10,1160,not married,23,8.25,not low,male,younger mom,full term,nonsmoker,white,None
+26,23,other,40,14,2370,married,28,8.38,not low,male,younger mom,full term,nonsmoker,white,PT 
+26,22,second,39,11,1200,married,35,9,not low,male,younger mom,full term,nonsmoker,white,None
+26,31,other,41,12,550,married,54,9.19,not low,male,younger mom,full term,nonsmoker,not white,None
+26,26,second,41,10,2630,married,68,9.31,not low,male,younger mom,full term,nonsmoker,white,PT
+26,17,first,38,11,1500,not married,30,9.5,not low,female,younger mom,full term,nonsmoker,white,PT 
+26,32,first,43,12,1620,married,30,11.63,not low,female,younger mom,full term,nonsmoker,white,PT
+27,26,first,31,20,1330,not married,10,2.25,low,female,younger mom,premie,nonsmoker,white,FT
+27,22,other,35,12,1900,married,30,4.69,low,male,younger mom,premie,nonsmoker,not white,FT
+27,27,second,37,13,1720,married,38,5.63,not low,female,younger mom,full term,nonsmoker,white,FT
+27,29,second,37,15,1370,married,33,5.69,not low,male,younger mom,full term,smoker,white,FT
+27,21,first,41,8,1390,married,26,5.94,not low,female,younger mom,full term,nonsmoker,white,FT
+27,19,second,32,5,1550,married,32,6.5,not low,female,younger mom,premie,nonsmoker,white,FT
+27,24,other,39,2,880,not married,10,6.5,not low,female,younger mom,full term,nonsmoker,not white,FT
+27,22,first,38,20,1610,not married,19,6.63,not low,female,younger mom,full term,smoker,white,FT
+27,24,first,39,15,2210,married,40,6.69,not low,female,younger mom,full term,nonsmoker,white,FT
+27,32,first,39,12,1870,married,27,6.69,not low,female,younger mom,full term,nonsmoker,white,FT
+27,26,other,38,14,2210,married,32,6.88,not low,female,younger mom,full term,nonsmoker,white,None
+27,33,first,38,12,1440,married,17,6.88,not low,female,younger mom,full term,nonsmoker,white,PT
+27,22,first,39,12,950,married,30,6.94,not low,female,younger mom,full term,smoker,white,None
+27,24,second,39,10,1740,married,35,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+27,29,other,39,10,2220,married,20,7.13,not low,female,younger mom,full term,nonsmoker,white,PT
+27,23,other,37,6,2320,not married,33,7.25,not low,female,younger mom,full term,nonsmoker,white,None
+27,27,first,35,10,1710,married,19,7.38,not low,male,younger mom,premie,nonsmoker,white,None
+27,25,other,40,11,820,married,26,7.44,not low,male,younger mom,full term,nonsmoker,white,None
+27,28,second,42,15,2160,married,14,7.5,not low,male,younger mom,full term,nonsmoker,white,None
+27,25,first,39,15,1570,married,31,7.56,not low,female,younger mom,full term,nonsmoker,white,PT 
+27,27,first,39,14,1180,married,31,7.56,not low,female,younger mom,full term,nonsmoker,white,None
+27,24,other,40,11,1690,married,8,7.69,not low,female,younger mom,full term,nonsmoker,white,None
+27,31,other,39,14,1360,married,33,7.81,not low,male,younger mom,full term,nonsmoker,white,PT
+27,23,other,43,15,1580,married,30,7.81,not low,female,younger mom,full term,nonsmoker,white,None
+27,27,second,39,11,1040,married,5,7.81,not low,male,younger mom,full term,smoker,white,PT 
+27,26,other,39,16,2550,married,38,8,not low,female,younger mom,full term,nonsmoker,white,PT
+27,28,second,39,22,1590,married,21,8.13,not low,male,younger mom,full term,nonsmoker,white,PT
+27,25,first,40,15,1300,married,32,8.38,not low,female,younger mom,full term,nonsmoker,white,None
+27,25,second,40,14,400,married,47,8.75,not low,female,younger mom,full term,nonsmoker,white,None
+27,26,second,40,15,2420,married,24,8.88,not low,male,younger mom,full term,nonsmoker,white,PT 
+27,24,second,40,15,1720,married,58,9,not low,male,younger mom,full term,nonsmoker,not white,None
+27,22,second,39,11,1670,married,35,9,not low,male,younger mom,full term,nonsmoker,white,PT
+27,33,second,40,15,1920,married,35,9.31,not low,male,younger mom,full term,nonsmoker,white,None
+27,21,first,36,12,2300,married,65,9.88,not low,female,younger mom,premie,nonsmoker,white,None
+28,22,second,22,8,1320,not married,10,1,low,female,younger mom,premie,nonsmoker,not white,FT
+28,20,other,35,7,1340,not married,30,4.5,low,male,younger mom,premie,nonsmoker,not white,FT
+28,27,second,33,6,1510,married,18,4.75,low,male,younger mom,premie,smoker,white,FT
+28,23,other,40,12,1540,not married,13,5.38,low,male,younger mom,full term,nonsmoker,not white,FT
+28,21,other,35,9,1760,married,15,5.5,low,female,younger mom,premie,smoker,white,FT
+28,23,first,39,14,1440,married,36,5.88,not low,male,younger mom,full term,nonsmoker,not white,FT
+28,26,second,40,14,1870,not married,21,5.94,not low,female,younger mom,full term,nonsmoker,white,FT
+28,18,first,38,15,1460,not married,30,6,not low,female,younger mom,full term,nonsmoker,not white,FT
+28,18,other,41,10,2330,not married,11,6.5,not low,female,younger mom,full term,nonsmoker,not white,FT
+28,20,first,38,7,2090,not married,52,6.75,not low,male,younger mom,full term,nonsmoker,white,None
+28,27,other,40,14,1790,married,36,6.75,not low,female,younger mom,full term,nonsmoker,not white,PT
+28,28,other,44,17,960,married,32,6.75,not low,female,younger mom,full term,nonsmoker,white,None
+28,22,second,40,12,1330,married,24,6.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+28,26,first,39,15,1610,married,25,6.94,not low,female,younger mom,full term,nonsmoker,white,None
+28,24,first,38,15,1900,married,21,6.94,not low,female,younger mom,full term,nonsmoker,white,PT
+28,29,other,39,12,1170,married,30,7,not low,female,younger mom,full term,nonsmoker,white,PT 
+28,31,second,40,6,570,married,30,7,not low,male,younger mom,full term,nonsmoker,white,None
+28,24,other,40,12,1250,married,29,7.06,not low,female,younger mom,full term,smoker,white,PT 
+28,27,second,40,12,2780,not married,21,7.06,not low,female,younger mom,full term,nonsmoker,not white,None
+28,36,second,38,11,1130,married,17,7.06,not low,female,mature mom,full term,nonsmoker,white,PT
+28,26,first,40,13,1690,not married,38,7.13,not low,female,younger mom,full term,nonsmoker,white,PT 
+28,26,second,39,15,1740,married,45,7.19,not low,female,younger mom,full term,nonsmoker,white,None
+28,22,second,38,6,1350,not married,45,7.25,not low,male,younger mom,full term,nonsmoker,white,None
+28,24,first,38,12,1480,married,28,7.25,not low,male,younger mom,full term,nonsmoker,white,PT
+28,21,second,38,12,1320,not married,40,7.38,not low,male,younger mom,full term,nonsmoker,white,None
+28,29,first,40,5,1080,married,20,7.38,not low,male,younger mom,full term,nonsmoker,white,PT
+28,27,first,39,13,960,not married,61,7.44,not low,male,younger mom,full term,nonsmoker,white,PT
+28,32,second,40,11,1560,married,43,7.44,not low,female,younger mom,full term,nonsmoker,white,None
+28,20,first,42,30,1440,not married,23,7.44,not low,female,younger mom,full term,smoker,white,PT 
+28,29,first,39,8,3050,married,15,7.69,not low,female,younger mom,full term,nonsmoker,not white,PT
+28,28,second,40,15,1270,married,32,7.75,not low,female,younger mom,full term,nonsmoker,white,PT
+28,28,second,40,12,1330,married,20,7.75,not low,female,younger mom,full term,nonsmoker,not white,None
+28,24,first,38,7,1570,not married,10,7.81,not low,male,younger mom,full term,nonsmoker,white,None
+28,29,other,39,15,2050,married,38,7.88,not low,female,younger mom,full term,nonsmoker,white,None
+28,27,second,40,16,820,married,28,8,not low,male,younger mom,full term,nonsmoker,white,None
+28,26,first,40,13,1420,not married,35,8.06,not low,female,younger mom,full term,nonsmoker,white,PT 
+28,28,second,39,13,1520,married,35,8.13,not low,female,younger mom,full term,nonsmoker,white,None
+28,29,first,41,15,2140,married,50,8.31,not low,male,younger mom,full term,nonsmoker,white,PT
+28,28,second,40,15,1980,married,0,8.38,not low,male,younger mom,full term,nonsmoker,white,PT
+28,28,other,44,15,1300,married,35,8.44,not low,female,younger mom,full term,nonsmoker,white,None
+28,23,other,40,8,2300,married,31,9,not low,male,younger mom,full term,nonsmoker,white,PT 
+28,25,first,40,7,1840,married,31,9.19,not low,male,younger mom,full term,nonsmoker,white,PT
+28,23,second,36,12,2250,married,50,9.25,not low,female,younger mom,premie,nonsmoker,white,None
+28,28,first,40,15,1990,married,45,9.25,not low,male,younger mom,full term,nonsmoker,white,PT 
+28,22,first,41,15,1490,married,9,10.19,not low,male,younger mom,full term,nonsmoker,white,PT 
+29,32,other,38,20,1940,married,25,5.81,not low,female,younger mom,full term,nonsmoker,not white,FT
+29,31,first,36,8,2290,married,42,5.94,not low,male,younger mom,premie,smoker,white,FT
+29,24,first,44,18,1510,married,30,6.25,not low,male,younger mom,full term,nonsmoker,white,FT
+29,29,first,37,18,2500,married,30,6.31,not low,female,younger mom,full term,nonsmoker,white,FT
+29,30,first,39,15,1630,married,44,6.38,not low,male,younger mom,full term,smoker,white,FT
+29,28,first,37,5,1740,not married,35,6.44,not low,male,younger mom,full term,nonsmoker,not white,FT
+29,30,first,39,10,2160,married,43,6.88,not low,female,younger mom,full term,nonsmoker,white,PT 
+29,29,first,37,10,280,not married,40,7.13,not low,female,younger mom,full term,nonsmoker,not white,None
+29,28,first,38,10,2100,married,34,7.13,not low,male,younger mom,full term,nonsmoker,white,PT
+29,26,other,39,15,1760,married,27,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+29,22,first,42,16,1350,married,36,7.31,not low,male,younger mom,full term,nonsmoker,white,None
+29,24,first,38,15,840,married,20,7.44,not low,male,younger mom,full term,nonsmoker,white,None
+29,24,first,34,12,760,married,31,7.5,not low,female,younger mom,premie,nonsmoker,not white,None
+29,26,second,36,4,1380,married,0,7.5,not low,male,younger mom,premie,nonsmoker,white,PT
+29,25,first,39,10,2250,married,29,7.63,not low,female,younger mom,full term,nonsmoker,white,PT 
+29,26,second,39,14,1540,married,65,7.75,not low,female,younger mom,full term,smoker,white,PT 
+29,21,second,39,18,1680,married,13,7.75,not low,female,younger mom,full term,nonsmoker,white,None
+29,25,other,38,18,1630,married,20,7.88,not low,male,younger mom,full term,nonsmoker,white,PT
+29,29,second,35,30,2340,married,50,7.94,not low,male,younger mom,premie,nonsmoker,white,None
+29,26,first,38,12,2260,married,25,7.94,not low,female,younger mom,full term,nonsmoker,white,PT 
+29,29,other,40,9,1490,not married,0,8.06,not low,male,younger mom,full term,nonsmoker,not white,None
+29,26,first,41,8,2340,not married,39,8.19,not low,male,younger mom,full term,nonsmoker,white,None
+29,30,first,42,12,1060,married,29,8.19,not low,male,younger mom,full term,nonsmoker,not white,PT 
+29,26,first,36,10,2180,not married,21,8.19,not low,female,younger mom,premie,nonsmoker,white,None
+29,30,second,38,14,1100,married,30,8.38,not low,female,younger mom,full term,nonsmoker,white,None
+29,26,second,40,12,1630,married,38,8.44,not low,male,younger mom,full term,nonsmoker,not white,PT
+29,29,first,44,12,2080,married,51,8.5,not low,male,younger mom,full term,nonsmoker,white,None
+29,23,first,38,20,1400,married,39,8.75,not low,female,younger mom,full term,nonsmoker,white,None
+29,26,second,38,14,2210,married,38,8.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+29,25,first,41,8,1600,married,33,9.38,not low,male,younger mom,full term,nonsmoker,white,PT 
+29,20,first,40,11,1390,not married,50,9.56,not low,male,younger mom,full term,nonsmoker,white,PT
+30,31,other,26,8,1370,married,7,1.31,low,female,younger mom,premie,nonsmoker,white,FT
+30,28,other,31,8,2710,not married,30,3.31,low,male,younger mom,premie,smoker,white,FT
+30,30,first,36,14,1200,married,30,4.19,low,female,younger mom,premie,nonsmoker,white,FT
+30,25,first,35,15,1880,married,40,4.5,low,male,younger mom,premie,smoker,white,FT
+30,30,second,40,9,1890,married,59,4.56,low,male,younger mom,full term,nonsmoker,white,FT
+30,29,other,39,14,1300,married,30,5.38,low,male,younger mom,full term,nonsmoker,not white,FT
+30,29,first,38,10,2490,married,55,5.44,low,male,younger mom,full term,nonsmoker,white,FT
+30,30,second,37,12,2450,married,23,5.63,not low,female,younger mom,full term,nonsmoker,white,FT
+30,36,second,37,22,1170,married,28,6.19,not low,female,mature mom,full term,nonsmoker,white,FT
+30,27,other,39,13,1640,married,50,6.25,not low,male,younger mom,full term,nonsmoker,white,FT
+30,29,other,38,7,870,married,23,6.5,not low,female,younger mom,full term,nonsmoker,white,FT
+30,31,second,38,15,1410,married,44,6.56,not low,male,younger mom,full term,nonsmoker,white,FT
+30,29,other,38,17,1380,married,55,7,not low,female,younger mom,full term,nonsmoker,white,None
+30,26,first,39,12,1240,married,43,7.25,not low,male,younger mom,full term,nonsmoker,white,PT 
+30,29,second,39,19,1060,married,30,7.31,not low,female,younger mom,full term,nonsmoker,white,PT 
+30,29,other,36,14,1060,married,25,7.38,not low,female,younger mom,premie,nonsmoker,white,PT 
+30,16,second,45,9,1720,not married,28,7.44,not low,male,younger mom,full term,nonsmoker,white,PT 
+30,26,first,38,18,1090,married,37,7.5,not low,female,younger mom,full term,nonsmoker,white,None
+30,28,second,39,13,560,not married,0,7.5,not low,female,younger mom,full term,nonsmoker,white,PT 
+30,26,second,39,15,630,married,35,7.56,not low,female,younger mom,full term,nonsmoker,not white,PT
+30,28,second,38,8,1230,married,0,7.56,not low,female,younger mom,full term,nonsmoker,white,None
+30,28,second,40,15,1040,married,28,7.63,not low,female,younger mom,full term,nonsmoker,white,None
+30,27,other,34,15,1140,married,30,7.69,not low,female,younger mom,premie,nonsmoker,white,PT 
+30,29,second,41,14,2040,married,30,7.69,not low,male,younger mom,full term,nonsmoker,white,None
+30,26,second,41,13,1700,married,29,7.75,not low,male,younger mom,full term,nonsmoker,white,None
+30,22,other,40,16,1750,not married,18,7.81,not low,male,younger mom,full term,smoker,white,PT 
+30,31,other,39,12,1350,married,42,7.88,not low,male,younger mom,full term,nonsmoker,white,None
+30,34,second,41,14,1790,married,40,7.88,not low,female,younger mom,full term,nonsmoker,white,PT 
+30,29,other,38,14,1170,married,36,7.88,not low,female,younger mom,full term,nonsmoker,white,None
+30,28,other,39,12,1540,married,20,7.94,not low,female,younger mom,full term,nonsmoker,white,None
+30,27,other,43,12,1430,married,17,7.94,not low,male,younger mom,full term,nonsmoker,white,PT
+30,22,second,39,8,2000,not married,20,8,not low,female,younger mom,full term,nonsmoker,white,PT 
+30,24,second,41,12,700,married,40,8.13,not low,male,younger mom,full term,smoker,white,None
+30,25,first,40,12,1360,married,35,8.13,not low,male,younger mom,full term,nonsmoker,white,PT 
+30,36,first,39,20,1110,married,23,8.19,not low,male,mature mom,full term,nonsmoker,white,PT
+30,27,second,40,15,1590,married,40,8.25,not low,male,younger mom,full term,nonsmoker,white,PT 
+30,26,second,39,14,1570,married,40,8.31,not low,male,younger mom,full term,nonsmoker,white,None
+30,27,second,39,15,1570,married,22,8.38,not low,male,younger mom,full term,smoker,white,PT 
+30,29,other,38,12,2110,married,25,8.44,not low,male,younger mom,full term,nonsmoker,white,None
+30,28,other,38,12,1710,married,41,8.5,not low,male,younger mom,full term,nonsmoker,not white,PT 
+30,35,other,40,12,1850,married,43,8.56,not low,male,mature mom,full term,nonsmoker,white,PT
+30,24,first,39,11,1250,not married,41,8.75,not low,male,younger mom,full term,nonsmoker,white,PT
+30,27,second,39,10,1740,married,37,8.88,not low,male,younger mom,full term,nonsmoker,white,None
+30,25,second,40,15,1490,married,13,9,not low,male,younger mom,full term,nonsmoker,white,None
+30,24,second,38,15,1790,married,35,9.13,not low,male,younger mom,full term,nonsmoker,white,PT 
+30,30,first,35,12,2160,married,0,9.19,not low,male,younger mom,premie,smoker,white,None
+30,32,other,39,18,2170,married,45,9.31,not low,male,younger mom,full term,nonsmoker,white,None
+30,34,first,40,10,1470,married,22,9.31,not low,male,younger mom,full term,nonsmoker,white,PT 
+30,32,first,39,14,1090,married,55,9.38,not low,male,younger mom,full term,nonsmoker,white,None
+31,22,other,30,10,1230,not married,25,2.69,low,male,younger mom,premie,nonsmoker,white,FT
+31,27,first,37,14,2050,married,48,5.75,not low,female,younger mom,full term,nonsmoker,white,FT
+31,32,second,37,12,1900,not married,22,6,not low,female,younger mom,full term,nonsmoker,white,FT
+31,28,first,35,6,2070,married,30,6.13,not low,female,younger mom,premie,nonsmoker,white,FT
+31,27,other,39,5,1430,not married,35,6.31,not low,male,younger mom,full term,nonsmoker,not white,FT
+31,31,second,39,15,2090,married,30,6.38,not low,female,younger mom,full term,nonsmoker,white,FT
+31,28,other,38,15,1290,married,25,6.38,not low,male,younger mom,full term,nonsmoker,white,FT
+31,28,second,40,16,1470,married,20,6.38,not low,female,younger mom,full term,nonsmoker,white,FT
+31,30,other,38,13,1910,married,20,6.5,not low,female,younger mom,full term,smoker,white,FT
+31,27,first,38,12,2390,married,31,6.56,not low,female,younger mom,full term,nonsmoker,white,FT
+31,33,second,38,10,2480,married,24,6.69,not low,female,younger mom,full term,nonsmoker,not white,FT
+31,34,second,42,20,2780,married,40,6.75,not low,male,younger mom,full term,nonsmoker,white,PT
+31,32,first,38,6,1550,married,27,6.75,not low,female,younger mom,full term,nonsmoker,white,None
+31,30,other,39,12,1980,married,22,6.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+31,23,second,44,14,1180,not married,40,6.81,not low,male,younger mom,full term,nonsmoker,not white,PT
+31,30,first,39,13,1780,married,1,6.88,not low,male,younger mom,full term,smoker,white,None
+31,20,second,41,13,1710,not married,27,7,not low,male,younger mom,full term,nonsmoker,white,PT
+31,28,other,39,20,1640,married,35,7.06,not low,female,younger mom,full term,nonsmoker,not white,PT
+31,27,first,40,13,1510,not married,3,7.06,not low,female,younger mom,full term,nonsmoker,not white,None
+31,31,first,38,18,760,married,19,7.25,not low,male,younger mom,full term,nonsmoker,white,None
+31,25,other,41,14,790,married,27,7.38,not low,female,younger mom,full term,nonsmoker,white,None
+31,30,first,39,13,1340,married,50,7.56,not low,female,younger mom,full term,nonsmoker,white,None
+31,17,other,39,12,1460,not married,27,7.56,not low,male,younger mom,full term,nonsmoker,white,PT 
+31,27,first,39,11,2090,married,23,7.56,not low,female,younger mom,full term,smoker,white,None
+31,29,first,41,12,1740,married,30,7.69,not low,male,younger mom,full term,smoker,not white,None
+31,33,first,37,14,2130,married,24,7.88,not low,male,younger mom,full term,nonsmoker,white,None
+31,19,other,40,11,1640,not married,16,7.88,not low,female,younger mom,full term,nonsmoker,white,PT
+31,29,other,38,14,1150,married,39,7.94,not low,male,younger mom,full term,nonsmoker,white,PT 
+31,26,other,36,18,1090,married,40,8,not low,male,younger mom,premie,nonsmoker,white,None
+31,33,other,39,16,1740,not married,28,8.06,not low,female,younger mom,full term,nonsmoker,white,PT
+31,31,first,41,14,2150,married,40,8.13,not low,female,younger mom,full term,nonsmoker,white,None
+31,30,second,37,10,1350,not married,27,8.13,not low,female,younger mom,full term,nonsmoker,white,PT
+31,30,first,41,12,1630,married,25,8.25,not low,female,younger mom,full term,nonsmoker,white,None
+31,22,other,41,12,1020,married,20,8.44,not low,male,younger mom,full term,nonsmoker,white,None
+31,23,first,43,12,1040,married,8,8.44,not low,female,younger mom,full term,nonsmoker,white,PT 
+31,29,first,39,11,2190,married,17,8.5,not low,male,younger mom,full term,nonsmoker,white,None
+31,29,first,40,15,1590,married,30,8.56,not low,male,younger mom,full term,nonsmoker,white,None
+31,35,first,36,12,890,married,24,8.69,not low,male,mature mom,premie,nonsmoker,white,None
+31,29,second,39,10,1000,married,26,8.94,not low,male,younger mom,full term,nonsmoker,white,PT 
+31,32,first,39,14,2310,married,20,9.19,not low,female,younger mom,full term,nonsmoker,white,PT 
+31,30,second,39,15,2010,married,47,9.75,not low,male,younger mom,full term,nonsmoker,white,PT 
+32,32,second,26,8,540,married,35,1.5,low,female,younger mom,premie,nonsmoker,white,FT
+32,31,first,30,10,140,married,20,2.88,low,female,younger mom,premie,nonsmoker,not white,FT
+32,28,second,29,18,2180,married,40,3.56,low,male,younger mom,premie,nonsmoker,white,FT
+32,33,other,37,13,1440,married,15,3.94,low,female,younger mom,full term,nonsmoker,not white,FT
+32,27,first,38,11,1920,married,14,4.56,low,female,younger mom,full term,nonsmoker,white,FT
+32,31,first,33,16,2170,married,55,4.75,low,female,younger mom,premie,smoker,white,FT
+32,19,second,43,2,2700,not married,27,5.38,low,female,younger mom,full term,nonsmoker,white,FT
+32,36,other,38,18,780,married,24,5.38,low,female,mature mom,full term,nonsmoker,white,FT
+32,32,other,33,9,2160,married,22,5.56,not low,male,younger mom,premie,nonsmoker,white,FT
+32,24,other,36,12,1550,married,12,5.81,not low,male,younger mom,premie,nonsmoker,white,FT
+32,31,other,34,9,1930,married,31,5.94,not low,female,younger mom,premie,nonsmoker,white,FT
+32,31,first,36,13,1140,married,20,6,not low,female,younger mom,premie,nonsmoker,white,FT
+32,30,second,35,10,2270,married,20,6,not low,female,younger mom,premie,nonsmoker,white,FT
+32,35,first,38,15,1510,married,20,6.38,not low,female,mature mom,full term,nonsmoker,white,FT
+32,31,second,37,12,2460,married,29,6.5,not low,female,younger mom,full term,nonsmoker,white,FT
+32,35,other,35,12,1580,not married,13,6.5,not low,female,mature mom,premie,nonsmoker,white,FT
+32,27,other,43,11,1010,married,30,6.56,not low,female,younger mom,full term,nonsmoker,not white,FT
+32,26,second,41,14,1900,not married,19,6.56,not low,female,younger mom,full term,nonsmoker,white,FT
+32,24,other,39,8,1730,married,23,6.88,not low,female,younger mom,full term,smoker,white,PT
+32,26,second,40,15,1240,married,55,7,not low,female,younger mom,full term,nonsmoker,white,None
+32,35,first,38,8,990,married,10,7.13,not low,female,mature mom,full term,nonsmoker,white,PT 
+32,34,first,37,10,830,married,25,7.25,not low,female,younger mom,full term,nonsmoker,white,PT
+32,30,second,37,14,1140,married,45,7.31,not low,female,younger mom,full term,nonsmoker,not white,PT
+32,33,other,38,11,1190,married,26,7.31,not low,female,younger mom,full term,nonsmoker,white,None
+32,26,other,40,12,1790,not married,40,7.44,not low,male,younger mom,full term,nonsmoker,white,PT
+32,29,second,38,14,1470,married,20,7.44,not low,female,younger mom,full term,nonsmoker,white,None
+32,35,other,38,17,1210,married,55,7.5,not low,female,mature mom,full term,nonsmoker,white,PT
+32,21,second,40,11,1430,married,58,7.56,not low,female,younger mom,full term,nonsmoker,white,PT
+32,31,other,41,15,2340,married,28,7.63,not low,female,younger mom,full term,nonsmoker,white,PT
+32,25,first,37,13,2530,married,50,7.75,not low,male,younger mom,full term,nonsmoker,white,PT 
+32,25,first,41,13,2120,married,50,7.75,not low,female,younger mom,full term,nonsmoker,white,None
+32,25,first,41,14,1220,married,32,7.75,not low,male,younger mom,full term,nonsmoker,white,PT
+32,29,other,39,11,1800,married,28,7.88,not low,female,younger mom,full term,nonsmoker,not white,PT 
+32,31,second,40,15,1570,married,46,8,not low,male,younger mom,full term,nonsmoker,white,PT 
+32,34,second,39,13,1210,married,30,8,not low,male,younger mom,full term,nonsmoker,white,None
+32,36,second,39,14,1450,married,2,8,not low,male,mature mom,full term,nonsmoker,white,PT
+32,31,other,40,12,980,married,22,8.19,not low,male,younger mom,full term,nonsmoker,white,None
+32,26,second,39,13,1570,not married,55,8.25,not low,female,younger mom,full term,nonsmoker,white,None
+32,27,first,38,9,2470,married,29,8.25,not low,female,younger mom,full term,nonsmoker,white,PT
+32,24,other,41,15,1400,not married,20,8.38,not low,female,younger mom,full term,nonsmoker,white,None
+32,24,other,37,12,530,married,28,8.5,not low,male,younger mom,full term,nonsmoker,white,PT
+32,33,first,40,12,1550,not married,36,8.81,not low,female,younger mom,full term,nonsmoker,not white,None
+32,31,first,38,10,2080,married,33,8.81,not low,male,younger mom,full term,nonsmoker,white,PT
+32,32,second,38,10,1810,married,42,8.88,not low,male,younger mom,full term,nonsmoker,white,PT
+32,33,other,40,13,740,married,77,9.63,not low,female,younger mom,full term,nonsmoker,white,PT
+32,31,other,37,13,780,married,30,10.38,not low,male,younger mom,full term,nonsmoker,white,None
+33,32,second,33,13,1700,married,35,3,low,female,younger mom,premie,nonsmoker,white,FT
+33,26,other,39,11,1390,not married,27,5.38,low,female,younger mom,full term,nonsmoker,not white,FT
+33,29,second,35,15,1000,married,13,5.44,low,female,younger mom,premie,nonsmoker,white,FT
+33,27,other,36,11,1700,not married,14,5.56,not low,male,younger mom,premie,nonsmoker,not white,FT
+33,36,first,39,15,2030,married,20,6.06,not low,female,mature mom,full term,nonsmoker,not white,FT
+33,32,other,39,12,2040,married,30,6.13,not low,male,younger mom,full term,nonsmoker,white,FT
+33,28,other,35,14,1800,married,25,6.25,not low,male,younger mom,premie,nonsmoker,white,FT
+33,34,first,39,10,1460,married,40,6.44,not low,female,younger mom,full term,nonsmoker,white,FT
+33,35,first,38,10,1580,married,20,6.44,not low,female,mature mom,full term,smoker,white,FT
+33,33,second,38,15,1510,not married,60,6.56,not low,male,younger mom,full term,nonsmoker,white,FT
+33,30,first,37,10,1480,married,57,6.56,not low,male,younger mom,full term,nonsmoker,not white,FT
+33,25,other,35,15,2050,married,18,6.75,not low,male,younger mom,premie,nonsmoker,white,None
+33,34,other,38,11,1200,married,40,6.88,not low,male,younger mom,full term,nonsmoker,white,PT 
+33,33,other,38,13,1090,married,18,6.88,not low,male,younger mom,full term,nonsmoker,white,None
+33,27,other,41,15,1680,married,38,7,not low,male,younger mom,full term,smoker,white,None
+33,36,first,38,11,1860,married,20,7,not low,male,mature mom,full term,nonsmoker,white,PT 
+33,30,second,42,15,1070,married,40,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+33,30,other,39,14,2200,married,35,7.25,not low,female,younger mom,full term,nonsmoker,white,None
+33,28,second,39,10,1100,not married,39,7.31,not low,male,younger mom,full term,nonsmoker,white,PT 
+33,33,second,39,30,700,married,0,7.31,not low,male,younger mom,full term,nonsmoker,not white,None
+33,32,second,41,12,1570,married,20,7.38,not low,male,younger mom,full term,nonsmoker,white,None
+33,33,other,39,14,2370,married,0,7.38,not low,female,younger mom,full term,nonsmoker,white,PT
+33,28,second,38,11,2120,not married,16,7.56,not low,female,younger mom,full term,nonsmoker,white,None
+33,30,second,39,10,960,married,28,7.63,not low,male,younger mom,full term,nonsmoker,white,None
+33,30,second,39,9,1570,married,42,7.81,not low,male,younger mom,full term,smoker,white,None
+33,40,second,36,13,780,not married,23,7.81,not low,female,mature mom,premie,nonsmoker,white,PT
+33,33,other,37,14,1310,married,0,7.81,not low,male,younger mom,full term,nonsmoker,not white,None
+33,35,first,40,14,2150,married,35,7.88,not low,male,mature mom,full term,nonsmoker,white,None
+33,27,first,41,14,1700,married,58,8,not low,male,younger mom,full term,nonsmoker,white,None
+33,36,second,40,11,1220,married,40,8.13,not low,female,mature mom,full term,nonsmoker,white,None
+33,28,other,41,10,1070,married,30,8.13,not low,male,younger mom,full term,nonsmoker,not white,PT 
+33,20,first,39,15,1680,not married,41,8.25,not low,male,younger mom,full term,smoker,white,PT
+33,33,other,37,10,1920,married,35,8.25,not low,female,younger mom,full term,nonsmoker,not white,None
+33,34,first,40,13,930,married,25,8.25,not low,male,younger mom,full term,nonsmoker,white,PT 
+33,28,first,39,14,1990,married,33,8.56,not low,female,younger mom,full term,nonsmoker,not white,PT 
+33,30,second,44,15,1840,not married,40,8.63,not low,female,younger mom,full term,nonsmoker,white,PT
+33,29,other,39,11,1360,not married,45,8.69,not low,male,younger mom,full term,smoker,white,PT 
+33,31,second,38,15,2220,married,35,8.81,not low,female,younger mom,full term,nonsmoker,white,PT 
+33,26,second,38,15,1850,married,27,9,not low,male,younger mom,full term,nonsmoker,white,PT
+33,27,first,39,9,1170,not married,40,9.06,not low,male,younger mom,full term,nonsmoker,white,PT 
+33,32,second,41,12,2170,married,32,9.13,not low,female,younger mom,full term,nonsmoker,white,None
+33,29,other,41,13,1540,married,34,9.56,not low,male,younger mom,full term,nonsmoker,white,None
+34,34,second,28,20,1010,married,21,2.88,low,male,younger mom,premie,nonsmoker,white,FT
+34,28,first,32,11,1350,married,40,3.19,low,male,younger mom,premie,nonsmoker,white,FT
+34,27,first,32,17,1380,not married,20,4.06,low,female,younger mom,premie,nonsmoker,white,FT
+34,32,second,37,11,1030,married,28,5.56,not low,male,younger mom,full term,nonsmoker,white,FT
+34,33,other,35,10,1990,not married,20,5.63,not low,female,younger mom,premie,nonsmoker,white,FT
+34,25,first,40,12,1950,not married,44,5.81,not low,female,younger mom,full term,smoker,white,FT
+34,30,second,39,12,2140,married,25,5.81,not low,male,younger mom,full term,nonsmoker,not white,FT
+34,28,other,37,11,1330,married,18,5.81,not low,male,younger mom,full term,nonsmoker,white,FT
+34,30,second,38,5,1350,married,17,6,not low,female,younger mom,full term,smoker,white,FT
+34,30,other,39,15,1100,married,19,6.06,not low,male,younger mom,full term,nonsmoker,white,FT
+34,29,other,38,16,1090,married,35,6.19,not low,female,younger mom,full term,nonsmoker,white,FT
+34,42,first,38,18,1320,married,20,6.19,not low,female,mature mom,full term,nonsmoker,white,FT
+34,41,other,39,15,860,married,40,6.56,not low,male,mature mom,full term,nonsmoker,not white,FT
+34,29,other,40,16,1820,not married,29,6.81,not low,female,younger mom,full term,nonsmoker,not white,PT 
+34,29,second,40,10,2470,married,20,6.81,not low,female,younger mom,full term,nonsmoker,white,None
+34,25,first,38,6,950,married,50,6.88,not low,male,younger mom,full term,nonsmoker,white,None
+34,34,other,37,17,1800,married,35,6.88,not low,female,younger mom,full term,nonsmoker,white,PT
+34,36,second,38,4,810,not married,25,6.88,not low,male,mature mom,full term,smoker,not white,None
+34,35,other,39,14,1900,married,30,6.94,not low,female,mature mom,full term,nonsmoker,white,PT 
+34,33,second,38,18,1020,married,6,7.06,not low,female,younger mom,full term,nonsmoker,white,None
+34,33,first,38,16,2280,married,60,7.13,not low,male,younger mom,full term,nonsmoker,white,PT 
+34,34,other,41,15,980,married,33,7.13,not low,male,younger mom,full term,nonsmoker,white,None
+34,31,other,41,7,1800,married,14,7.13,not low,female,younger mom,full term,nonsmoker,white,PT
+34,31,other,40,16,1440,married,37,7.19,not low,female,younger mom,full term,nonsmoker,white,PT 
+34,22,other,37,10,1280,not married,50,7.25,not low,female,younger mom,full term,nonsmoker,not white,PT
+34,34,other,38,11,1360,married,23,7.25,not low,male,younger mom,full term,nonsmoker,white,None
+34,34,other,37,15,2200,married,20,7.25,not low,male,younger mom,full term,nonsmoker,white,PT 
+34,32,first,39,13,2680,married,25,7.31,not low,female,younger mom,full term,nonsmoker,white,None
+34,31,first,39,10,1310,married,44,7.38,not low,male,younger mom,full term,nonsmoker,white,PT 
+34,31,other,40,14,2260,married,44,7.5,not low,female,younger mom,full term,nonsmoker,white,PT 
+34,30,second,38,16,1260,married,30,7.5,not low,female,younger mom,full term,nonsmoker,white,None
+34,34,second,39,10,2310,married,44,7.56,not low,female,younger mom,full term,nonsmoker,white,None
+34,35,first,39,12,1600,married,30,7.56,not low,male,mature mom,full term,nonsmoker,white,PT 
+34,36,first,39,5,1220,married,35,7.69,not low,male,mature mom,full term,nonsmoker,white,PT
+34,24,second,37,12,1380,married,20,7.81,not low,male,younger mom,full term,nonsmoker,not white,PT 
+34,33,second,40,25,1840,not married,25,7.88,not low,male,younger mom,full term,nonsmoker,not white,PT
+34,33,other,39,10,1310,married,40,8.06,not low,male,younger mom,full term,nonsmoker,white,None
+34,35,second,39,10,1120,married,34,8.25,not low,female,mature mom,full term,nonsmoker,white,PT 
+34,29,second,39,15,1460,married,24,8.25,not low,female,younger mom,full term,nonsmoker,not white,None
+34,37,second,41,16,1530,married,36,8.31,not low,female,mature mom,full term,nonsmoker,white,None
+34,33,other,39,12,1220,married,0,8.31,not low,female,younger mom,full term,nonsmoker,white,PT 
+34,31,other,39,15,1490,married,22,8.69,not low,male,younger mom,full term,nonsmoker,white,None
+34,34,other,37,13,1940,married,30,8.75,not low,male,younger mom,full term,nonsmoker,white,None
+34,36,first,37,14,2070,married,40,8.81,not low,male,mature mom,full term,nonsmoker,white,None
+34,27,second,39,16,1820,married,24,8.88,not low,male,younger mom,full term,smoker,white,None
+34,33,second,43,13,1030,married,25,9.13,not low,male,younger mom,full term,smoker,white,PT
+34,31,second,39,12,820,married,50,9.25,not low,male,younger mom,full term,nonsmoker,white,PT
+34,32,first,38,10,1910,married,29,9.5,not low,female,younger mom,full term,nonsmoker,not white,None
+34,40,second,41,8,1820,not married,29,9.88,not low,male,mature mom,full term,nonsmoker,NA,PT 
+35,35,first,28,6,1500,not married,29,1.63,low,female,mature mom,premie,nonsmoker,white,FT
+35,25,first,37,30,1980,married,60,3.94,low,female,younger mom,full term,nonsmoker,white,FT
+35,32,other,33,14,1620,married,30,4.63,low,male,younger mom,premie,nonsmoker,white,FT
+35,32,second,38,13,1840,married,37,5,low,female,younger mom,full term,nonsmoker,white,FT
+35,32,first,37,11,1520,married,25,6.19,not low,male,younger mom,full term,nonsmoker,not white,FT
+35,37,first,40,13,1910,married,23,6.19,not low,female,mature mom,full term,nonsmoker,white,FT
+35,31,other,40,15,1900,married,32,6.25,not low,male,younger mom,full term,nonsmoker,white,FT
+35,26,other,34,14,2150,married,48,6.5,not low,male,younger mom,premie,nonsmoker,not white,FT
+35,35,other,38,12,1880,married,30,6.63,not low,female,mature mom,full term,nonsmoker,white,FT
+35,33,first,42,13,1880,not married,3,6.75,not low,male,younger mom,full term,nonsmoker,not white,PT 
+35,33,second,40,16,2580,married,30,6.81,not low,male,younger mom,full term,nonsmoker,white,None
+35,31,first,38,10,2770,married,26,6.81,not low,female,younger mom,full term,nonsmoker,white,PT
+35,33,other,40,11,1640,married,23,6.81,not low,male,younger mom,full term,nonsmoker,not white,None
+35,28,second,38,10,1640,married,25,6.88,not low,male,younger mom,full term,nonsmoker,white,PT 
+35,31,first,40,15,1310,married,30,7.06,not low,female,younger mom,full term,nonsmoker,white,None
+35,28,second,39,12,820,married,19,7.06,not low,male,younger mom,full term,nonsmoker,not white,PT 
+35,26,other,41,12,920,not married,30,7.19,not low,female,younger mom,full term,nonsmoker,white,None
+35,33,first,41,16,1990,not married,41,7.38,not low,female,younger mom,full term,nonsmoker,white,None
+35,31,first,38,10,2150,married,38,7.44,not low,female,younger mom,full term,nonsmoker,white,None
+35,31,second,39,15,1520,married,35,7.44,not low,male,younger mom,full term,nonsmoker,white,PT 
+35,34,first,40,15,1210,married,20,7.44,not low,male,younger mom,full term,nonsmoker,white,None
+35,33,second,37,15,2090,married,30,7.5,not low,male,younger mom,full term,nonsmoker,white,None
+35,34,first,39,13,1140,married,30,7.56,not low,male,younger mom,full term,nonsmoker,white,PT
+35,34,first,40,16,2080,married,38,7.63,not low,female,younger mom,full term,nonsmoker,white,None
+35,30,first,43,12,900,married,30,7.63,not low,male,younger mom,full term,nonsmoker,white,PT 
+35,35,other,39,13,1120,married,30,7.69,not low,male,mature mom,full term,nonsmoker,white,None
+35,29,other,38,12,2190,married,40,7.81,not low,male,younger mom,full term,nonsmoker,white,PT
+35,31,first,37,10,1500,married,40,7.81,not low,male,younger mom,full term,nonsmoker,white,None
+35,34,second,40,15,1570,married,42,7.88,not low,female,younger mom,full term,nonsmoker,white,None
+35,21,other,40,10,490,not married,29,7.88,not low,male,younger mom,full term,nonsmoker,white,PT 
+35,31,second,39,12,2490,married,25,7.88,not low,male,younger mom,full term,nonsmoker,white,None
+35,31,second,40,10,1540,married,45,8,not low,female,younger mom,full term,nonsmoker,white,None
+35,22,first,39,10,1270,not married,20,8,not low,male,younger mom,full term,nonsmoker,white,PT
+35,31,first,37,12,1020,married,37,8.06,not low,female,younger mom,full term,nonsmoker,white,None
+35,35,first,38,14,2160,married,35,8.06,not low,male,mature mom,full term,nonsmoker,white,PT 
+35,36,second,38,18,1310,married,37,8.25,not low,male,mature mom,full term,nonsmoker,white,PT
+35,27,first,38,14,1490,married,22,8.25,not low,male,younger mom,full term,nonsmoker,white,None
+35,34,other,41,10,2690,married,33,8.31,not low,female,younger mom,full term,nonsmoker,not white,PT
+35,21,first,38,7,1400,married,40,8.38,not low,female,younger mom,full term,nonsmoker,white,PT
+35,34,second,37,14,2100,married,36,8.5,not low,male,younger mom,full term,nonsmoker,white,PT
+35,34,first,40,13,2150,married,36,8.5,not low,male,younger mom,full term,nonsmoker,white,None
+35,34,second,45,10,1300,married,34,8.5,not low,male,younger mom,full term,nonsmoker,white,PT 
+35,32,other,40,14,1350,married,26,8.5,not low,female,younger mom,full term,nonsmoker,white,None
+35,34,first,40,12,1200,married,35,8.63,not low,female,younger mom,full term,nonsmoker,white,None
+35,33,other,39,12,1360,married,15,8.81,not low,male,younger mom,full term,nonsmoker,white,PT
+35,32,other,39,12,760,married,22,8.88,not low,male,younger mom,full term,nonsmoker,not white,PT 
+35,33,other,37,13,1880,married,21,9.63,not low,male,younger mom,full term,nonsmoker,white,None
+36,36,other,30,10,1270,married,65,4,low,female,mature mom,premie,nonsmoker,white,FT
+36,38,other,35,15,2040,not married,34,5.5,low,female,mature mom,premie,nonsmoker,white,FT
+36,33,first,38,10,2040,married,20,6,not low,male,younger mom,full term,nonsmoker,white,FT
+36,32,first,38,10,2470,married,22,6.25,not low,female,younger mom,full term,nonsmoker,white,FT
+36,30,first,38,12,1810,married,19,6.5,not low,female,younger mom,full term,smoker,white,FT
+36,34,first,38,14,1270,married,15,7,not low,female,younger mom,full term,nonsmoker,white,PT
+36,20,other,41,12,1760,not married,20,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+36,37,second,40,15,1160,married,17,7.25,not low,female,mature mom,full term,nonsmoker,white,None
+36,33,first,39,13,2110,married,41,7.38,not low,male,younger mom,full term,nonsmoker,white,None
+36,32,first,40,15,1940,married,16,7.38,not low,male,younger mom,full term,nonsmoker,white,PT
+36,33,second,39,15,1120,married,44,7.56,not low,male,younger mom,full term,nonsmoker,white,PT 
+36,29,second,41,10,1490,married,35,7.56,not low,female,younger mom,full term,nonsmoker,white,None
+36,23,second,40,10,880,not married,47,7.63,not low,male,younger mom,full term,nonsmoker,white,None
+36,35,second,37,14,2180,married,30,7.63,not low,male,mature mom,full term,nonsmoker,white,PT
+36,27,other,40,11,1550,not married,18,7.75,not low,male,younger mom,full term,nonsmoker,not white,None
+36,36,other,39,11,2040,married,25,7.81,not low,female,mature mom,full term,nonsmoker,white,None
+36,30,second,39,11,2190,married,21,7.88,not low,male,younger mom,full term,nonsmoker,white,PT
+36,35,other,39,10,1550,married,0,7.94,not low,female,mature mom,full term,nonsmoker,white,None
+36,28,second,39,15,1940,married,40,8.38,not low,male,younger mom,full term,nonsmoker,white,None
+36,34,other,41,15,1530,married,28,8.5,not low,female,younger mom,full term,nonsmoker,white,None
+36,25,other,40,13,980,married,34,8.75,not low,female,younger mom,full term,nonsmoker,not white,PT 
+36,32,other,37,10,1430,married,48,8.81,not low,male,younger mom,full term,nonsmoker,white,PT 
+36,33,second,39,12,2000,married,0,8.81,not low,male,younger mom,full term,nonsmoker,white,None
+36,35,first,40,12,2340,married,29,8.88,not low,male,mature mom,full term,nonsmoker,white,None
+36,37,second,44,10,1670,married,25,8.94,not low,male,mature mom,full term,nonsmoker,white,None
+36,31,other,37,13,1710,married,34,9.5,not low,female,younger mom,full term,nonsmoker,white,PT
+37,35,first,28,8,1670,married,15,2.25,low,male,mature mom,premie,nonsmoker,white,FT
+37,34,other,37,18,1830,married,0,4.75,low,female,younger mom,full term,nonsmoker,not white,FT
+37,36,second,39,5,2020,not married,25,5.38,low,female,mature mom,full term,smoker,white,FT
+37,37,other,40,12,1390,married,29,6.25,not low,female,mature mom,full term,nonsmoker,white,FT
+37,33,second,36,11,910,married,15,6.31,not low,male,younger mom,premie,smoker,white,FT
+37,33,other,36,13,2330,married,23,6.56,not low,female,younger mom,premie,nonsmoker,white,FT
+37,34,other,37,15,2040,married,75,6.69,not low,female,younger mom,full term,nonsmoker,white,FT
+37,37,second,38,18,2150,not married,29,6.69,not low,female,mature mom,full term,nonsmoker,not white,FT
+37,36,other,44,12,1450,married,35,6.75,not low,female,mature mom,full term,nonsmoker,not white,None
+37,29,other,37,15,970,married,45,6.94,not low,male,younger mom,full term,nonsmoker,white,None
+37,36,first,38,15,1770,married,40,7,not low,female,mature mom,full term,nonsmoker,white,None
+37,36,second,39,13,1380,married,31,7.06,not low,female,mature mom,full term,nonsmoker,white,PT
+37,27,other,39,16,1410,married,34,7.19,not low,male,younger mom,full term,nonsmoker,white,PT
+37,28,second,36,14,1230,not married,35,7.31,not low,female,younger mom,premie,nonsmoker,white,None
+37,35,other,40,16,1670,married,32,7.31,not low,female,mature mom,full term,nonsmoker,white,PT
+37,31,second,39,14,1770,married,55,8.13,not low,male,younger mom,full term,smoker,white,PT
+37,28,first,40,12,2020,married,35,8.25,not low,male,younger mom,full term,smoker,white,None
+37,37,second,39,14,1140,married,30,8.38,not low,male,mature mom,full term,nonsmoker,white,PT 
+37,37,other,40,10,1440,married,35,8.5,not low,male,mature mom,full term,nonsmoker,white,None
+37,27,second,41,8,1820,married,15,8.5,not low,female,younger mom,full term,nonsmoker,white,PT 
+37,33,second,38,13,1100,married,18,8.63,not low,male,younger mom,full term,nonsmoker,white,PT 
+37,38,second,40,11,2120,married,44,8.75,not low,male,mature mom,full term,nonsmoker,white,None
+37,36,second,41,4,2170,not married,10,8.88,not low,female,mature mom,full term,nonsmoker,white,PT
+37,36,other,38,12,1630,married,43,9.13,not low,female,mature mom,full term,nonsmoker,white,None
+37,37,other,41,17,1790,married,45,9.88,not low,male,mature mom,full term,nonsmoker,white,None
+38,37,second,26,5,1720,married,25,3.63,low,male,mature mom,premie,nonsmoker,not white,FT
+38,36,second,36,18,640,married,25,4.13,low,female,mature mom,premie,nonsmoker,white,FT
+38,34,other,34,10,1030,married,15,4.69,low,female,younger mom,premie,nonsmoker,white,FT
+38,35,first,36,11,1060,married,16,5.63,not low,male,mature mom,premie,nonsmoker,not white,FT
+38,33,first,38,14,1020,married,30,5.88,not low,male,younger mom,full term,nonsmoker,white,FT
+38,37,first,35,20,1800,married,37,5.94,not low,male,mature mom,premie,nonsmoker,white,FT
+38,31,first,37,11,1460,married,34,6.31,not low,female,younger mom,full term,nonsmoker,white,FT
+38,34,other,36,7,810,married,22,6.31,not low,male,younger mom,premie,nonsmoker,white,FT
+38,34,second,40,18,1990,married,0,6.31,not low,female,younger mom,full term,nonsmoker,white,FT
+38,35,other,36,16,2090,married,32,6.44,not low,female,mature mom,premie,nonsmoker,white,FT
+38,34,first,37,20,1710,married,60,6.81,not low,female,younger mom,full term,nonsmoker,white,PT 
+38,37,first,39,10,1510,married,10,7,not low,female,mature mom,full term,nonsmoker,white,PT 
+38,31,other,45,12,1030,married,50,7.13,not low,male,younger mom,full term,nonsmoker,not white,PT
+38,39,second,39,20,950,married,50,7.19,not low,female,mature mom,full term,nonsmoker,white,PT 
+38,34,first,34,10,1010,married,29,7.19,not low,male,younger mom,premie,nonsmoker,white,None
+38,31,other,39,11,450,married,85,7.63,not low,female,younger mom,full term,nonsmoker,white,PT 
+38,34,second,39,9,1260,married,34,7.94,not low,female,younger mom,full term,nonsmoker,not white,PT
+38,31,second,37,11,2530,married,45,8,not low,male,younger mom,full term,nonsmoker,white,PT 
+38,20,other,37,5,1560,not married,19,8.31,not low,female,younger mom,full term,nonsmoker,not white,None
+38,35,first,40,14,1620,married,15,8.44,not low,female,mature mom,full term,nonsmoker,white,PT
+38,34,other,38,13,2150,married,32,8.5,not low,female,younger mom,full term,nonsmoker,white,PT
+38,37,second,40,14,1320,married,35,8.63,not low,male,mature mom,full term,nonsmoker,white,None
+38,32,first,39,10,1500,married,35,9.25,not low,male,younger mom,full term,nonsmoker,white,PT 
+38,33,other,39,12,1010,married,25,9.25,not low,male,younger mom,full term,nonsmoker,not white,None
+38,33,second,40,15,1160,married,45,10.06,not low,female,younger mom,full term,nonsmoker,not white,PT 
+38,35,second,38,16,1860,married,2,10.13,not low,male,mature mom,full term,nonsmoker,white,None
+39,37,first,38,5,2540,married,45,5.13,low,male,mature mom,full term,nonsmoker,white,FT
+39,34,first,38,8,1300,married,60,6.19,not low,female,younger mom,full term,nonsmoker,white,FT
+39,37,other,41,17,1260,married,18,6.31,not low,male,mature mom,full term,nonsmoker,not white,FT
+39,36,second,37,10,1130,married,20,6.88,not low,male,mature mom,full term,nonsmoker,white,None
+39,45,first,40,15,1230,married,32,6.94,not low,female,mature mom,full term,nonsmoker,white,PT
+39,38,second,39,16,2480,married,30,7,not low,male,mature mom,full term,nonsmoker,not white,PT
+39,36,other,38,11,2700,married,7,7,not low,female,mature mom,full term,nonsmoker,not white,None
+39,36,other,41,4,1040,married,13,7.56,not low,female,mature mom,full term,nonsmoker,white,None
+39,27,first,37,13,2210,married,50,7.75,not low,male,younger mom,full term,nonsmoker,white,PT
+39,39,second,40,12,1510,married,27,7.81,not low,female,mature mom,full term,nonsmoker,white,PT 
+39,35,second,41,11,1260,married,22,7.88,not low,male,mature mom,full term,nonsmoker,white,None
+39,35,second,38,12,900,married,50,8.44,not low,male,mature mom,full term,nonsmoker,white,None
+39,27,first,39,12,2410,married,58,8.56,not low,male,younger mom,full term,smoker,white,None
+39,35,second,39,16,1360,married,52,8.81,not low,male,mature mom,full term,nonsmoker,not white,None
+40,31,other,37,9,1630,married,41,6.13,not low,female,younger mom,full term,nonsmoker,white,FT
+40,27,other,37,5,1910,not married,15,6.25,not low,male,younger mom,full term,nonsmoker,white,FT
+40,34,other,39,15,1200,married,20,6.38,not low,male,younger mom,full term,nonsmoker,not white,FT
+40,33,first,39,10,2650,married,23,6.56,not low,male,younger mom,full term,nonsmoker,white,FT
+40,29,second,39,14,1990,married,20,6.63,not low,male,younger mom,full term,nonsmoker,not white,FT
+40,36,first,38,26,2060,married,20,7.19,not low,female,mature mom,full term,nonsmoker,white,None
+40,38,other,41,14,1630,married,20,7.25,not low,male,mature mom,full term,nonsmoker,white,PT 
+40,40,other,38,13,1430,married,38,7.31,not low,male,mature mom,full term,nonsmoker,white,PT 
+40,32,second,40,14,1970,married,24,7.38,not low,female,younger mom,full term,nonsmoker,not white,PT 
+40,38,second,42,13,1920,married,20,7.56,not low,female,mature mom,full term,nonsmoker,white,None
+40,41,other,39,12,1400,married,20,7.56,not low,female,mature mom,full term,nonsmoker,white,PT
+40,34,other,37,5,1130,married,25,7.75,not low,female,younger mom,full term,nonsmoker,white,None
+40,34,second,39,12,1210,married,23,8.13,not low,male,younger mom,full term,nonsmoker,white,None
+40,34,second,44,12,1440,married,28,8.75,not low,male,younger mom,full term,nonsmoker,white,PT
+41,36,first,31,5,2380,married,40,3.25,low,male,mature mom,premie,nonsmoker,white,FT
+41,37,other,35,15,2040,married,40,4.94,low,male,mature mom,premie,nonsmoker,white,FT
+41,36,second,39,14,1000,not married,56,7.06,not low,male,mature mom,full term,smoker,not white,None
+41,39,other,39,11,1640,married,30,8.06,not low,female,mature mom,full term,nonsmoker,white,PT
+41,40,first,43,12,1490,married,27,8.13,not low,male,mature mom,full term,nonsmoker,white,PT 
+41,30,second,40,14,1160,married,35,8.44,not low,male,younger mom,full term,nonsmoker,white,PT 
+41,37,second,38,12,1320,married,70,8.75,not low,male,mature mom,full term,nonsmoker,white,None
+41,23,other,38,3,2220,married,11,8.88,not low,male,younger mom,full term,nonsmoker,white,None
+41,35,first,39,18,1700,not married,20,8.94,not low,male,mature mom,full term,nonsmoker,not white,PT
+41,40,first,40,13,1220,married,30,9,not low,female,mature mom,full term,nonsmoker,white,None
+41,36,second,38,6,1560,married,47,9.19,not low,male,mature mom,full term,nonsmoker,not white,None
+42,32,first,26,13,2500,married,36,1.44,low,female,younger mom,premie,nonsmoker,not white,FT
+42,40,second,35,12,2120,married,35,5.69,not low,male,mature mom,premie,nonsmoker,white,FT
+42,41,first,38,11,2150,not married,12,5.88,not low,female,mature mom,full term,nonsmoker,not white,FT
+42,33,first,42,24,1450,married,20,6.44,not low,female,younger mom,full term,nonsmoker,not white,FT
+42,35,first,36,18,2100,married,25,6.75,not low,male,mature mom,premie,nonsmoker,white,PT
+42,37,first,41,16,2200,married,38,7,not low,female,mature mom,full term,nonsmoker,white,None
+42,26,other,40,8,1620,married,38,7.13,not low,male,younger mom,full term,smoker,white,None
+42,36,second,40,13,1570,not married,50,7.38,not low,male,mature mom,full term,nonsmoker,not white,None
+42,35,first,38,10,1930,married,50,7.63,not low,male,mature mom,full term,nonsmoker,white,None
+42,29,second,40,8,1830,married,25,7.81,not low,female,younger mom,full term,nonsmoker,white,None
+42,31,first,39,12,1090,married,34,7.88,not low,male,younger mom,full term,nonsmoker,white,PT 
+42,36,other,39,12,2400,married,11,8.56,not low,male,mature mom,full term,nonsmoker,white,PT
+42,33,second,41,15,1820,married,30,8.88,not low,female,younger mom,full term,nonsmoker,white,PT 
+42,38,other,39,15,1030,married,50,8.94,not low,female,mature mom,full term,nonsmoker,not white,None
+42,38,first,41,15,1820,married,35,10.13,not low,female,mature mom,full term,nonsmoker,white,PT
+43,35,first,39,12,2020,married,20,7.06,not low,female,mature mom,full term,nonsmoker,white,None
+43,31,second,41,5,1880,married,20,7.06,not low,female,younger mom,full term,smoker,white,PT 
+43,39,second,38,17,1220,not married,40,7.5,not low,female,mature mom,full term,nonsmoker,white,PT
+43,41,first,39,14,900,married,10,7.69,not low,male,mature mom,full term,nonsmoker,white,PT 
+43,24,second,38,16,2240,not married,30,8.19,not low,male,younger mom,full term,nonsmoker,not white,PT 
+43,37,other,38,10,2340,married,23,8.5,not low,female,mature mom,full term,nonsmoker,white,None
+43,40,other,41,11,1430,married,25,9.19,not low,male,mature mom,full term,nonsmoker,white,PT
+44,38,first,38,14,1830,married,65,6.25,not low,female,mature mom,full term,nonsmoker,white,FT
+44,32,first,40,10,1590,married,10,6.69,not low,male,younger mom,full term,nonsmoker,white,FT
+44,40,second,37,30,1590,married,15,7.44,not low,female,mature mom,full term,nonsmoker,not white,PT
+44,38,other,41,15,1240,married,37,7.75,not low,female,mature mom,full term,nonsmoker,white,PT 
+44,37,other,39,12,1080,married,20,9.31,not low,male,mature mom,full term,nonsmoker,white,PT
+44,27,other,40,10,950,not married,24,9.63,not low,female,younger mom,full term,nonsmoker,white,PT 
+45,37,second,35,9,1140,married,45,4.31,low,male,mature mom,premie,nonsmoker,white,FT
+45,32,first,35,14,980,married,29,4.44,low,female,younger mom,premie,nonsmoker,white,FT
+45,50,other,39,14,990,married,23,7.13,not low,female,mature mom,full term,nonsmoker,white,PT 
+45,28,first,37,13,900,married,13,7.44,not low,male,younger mom,full term,nonsmoker,not white,None
+45,24,other,37,15,1080,married,40,8.19,not low,female,younger mom,full term,nonsmoker,white,None
+45,27,other,39,14,1640,married,43,9.13,not low,male,younger mom,full term,nonsmoker,white,PT 
+45,29,first,39,11,1100,married,30,9.81,not low,female,younger mom,full term,nonsmoker,white,PT
+46,28,other,39,14,2320,married,24,6.44,not low,male,younger mom,full term,nonsmoker,not white,FT
+46,24,other,38,14,2080,married,58,6.63,not low,female,younger mom,full term,nonsmoker,white,FT
+46,39,other,38,10,750,not married,35,6.75,not low,male,mature mom,full term,smoker,white,None
+47,24,first,40,12,2820,married,46,6.88,not low,male,younger mom,full term,nonsmoker,white,PT
+47,37,other,38,13,2480,married,40,7.94,not low,male,mature mom,full term,nonsmoker,white,None
+47,42,other,40,10,1080,married,26,8.44,not low,male,mature mom,full term,nonsmoker,not white,None
+48,35,first,37,20,1300,married,18,6.25,not low,female,mature mom,full term,nonsmoker,white,FT
+48,41,second,41,15,1760,married,28,6.38,not low,male,mature mom,full term,nonsmoker,not white,FT
+48,33,other,40,11,1980,married,0,8.19,not low,male,younger mom,full term,smoker,white,PT
+50,41,first,37,12,1700,not married,61,7.44,not low,male,mature mom,full term,nonsmoker,white,PT 
+53,39,other,33,6,1610,not married,24,5.5,low,male,mature mom,premie,smoker,not white,FT
+55,46,other,31,8,1610,married,25,4.56,low,female,mature mom,premie,nonsmoker,not white,FT
+NA,23,other,25,12,990,not married,60,1.19,low,female,younger mom,premie,nonsmoker,not white,FT
+NA,27,first,25,10,1830,not married,30,1.38,low,male,younger mom,premie,nonsmoker,not white,FT
+NA,19,other,22,5,1990,not married,20,1.38,low,female,younger mom,premie,nonsmoker,not white,FT
+NA,18,second,33,7,620,not married,40,1.69,low,male,younger mom,premie,smoker,white,FT
+NA,38,other,32,10,1450,not married,16,2.19,low,female,mature mom,premie,smoker,white,FT
+NA,24,other,38,16,1840,married,50,3.75,low,female,younger mom,full term,nonsmoker,white,FT
+NA,34,other,33,17,2170,not married,14,3.81,low,female,younger mom,premie,nonsmoker,white,FT
+NA,26,second,32,18,2460,not married,19,4,low,male,younger mom,premie,nonsmoker,not white,FT
+NA,28,other,33,9,2050,not married,20,4.06,low,male,younger mom,premie,smoker,white,FT
+NA,21,second,36,10,2140,not married,25,4.25,low,male,younger mom,premie,nonsmoker,not white,FT
+NA,21,other,35,8,2340,married,40,4.63,low,female,younger mom,premie,nonsmoker,white,FT
+NA,32,first,41,15,2360,not married,28,4.75,low,female,younger mom,full term,nonsmoker,not white,FT
+NA,31,other,38,16,1550,not married,20,4.75,low,female,younger mom,full term,nonsmoker,not white,FT
+NA,29,other,34,6,1370,not married,25,4.88,low,male,younger mom,premie,smoker,not white,FT
+NA,20,first,33,9,1980,not married,18,4.94,low,female,younger mom,premie,nonsmoker,not white,FT
+NA,22,first,32,8,2270,not married,35,5,low,male,younger mom,premie,nonsmoker,white,FT
+NA,24,other,39,8,1790,not married,22,5,low,female,younger mom,full term,smoker,white,FT
+NA,29,other,37,13,1650,not married,14,5,low,female,younger mom,full term,nonsmoker,not white,FT
+NA,32,second,33,10,1180,married,60,5.06,low,male,younger mom,premie,nonsmoker,white,FT
+NA,24,other,34,7,2020,not married,18,5.06,low,male,younger mom,premie,nonsmoker,white,FT
+NA,25,other,36,8,1740,not married,30,5.19,low,male,younger mom,premie,nonsmoker,white,FT
+NA,35,first,40,18,980,not married,20,5.19,low,female,mature mom,full term,nonsmoker,white,FT
+NA,19,first,35,12,1560,not married,50,5.25,low,female,younger mom,premie,nonsmoker,not white,FT
+NA,31,first,36,12,1060,not married,34,5.25,low,female,younger mom,premie,nonsmoker,not white,FT
+NA,31,second,40,10,2220,not married,12,5.25,low,male,younger mom,full term,nonsmoker,white,FT
+NA,20,other,37,10,1300,not married,26,5.38,low,female,younger mom,full term,smoker,white,FT
+NA,15,first,38,19,1820,not married,22,5.38,low,male,younger mom,full term,nonsmoker,not white,FT
+NA,20,first,39,16,1660,not married,19,5.44,low,female,younger mom,full term,nonsmoker,white,FT
+NA,17,other,38,12,1710,not married,30,5.56,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,35,second,37,10,1730,married,25,5.63,not low,male,mature mom,full term,smoker,white,FT
+NA,25,first,37,20,1240,married,20,5.63,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,41,other,33,13,2070,married,0,5.69,not low,female,mature mom,premie,nonsmoker,not white,FT
+NA,21,first,34,12,1840,not married,25,5.81,not low,female,younger mom,premie,nonsmoker,not white,FT
+NA,23,first,36,10,1800,not married,62,5.88,not low,female,younger mom,premie,nonsmoker,not white,FT
+NA,22,other,37,7,1800,not married,39,5.88,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,23,other,36,2,1630,not married,27,5.88,not low,female,younger mom,premie,nonsmoker,not white,FT
+NA,26,other,39,6,1730,not married,20,5.88,not low,male,younger mom,full term,nonsmoker,not white,FT
+NA,19,first,34,0,1650,not married,20,5.88,not low,female,younger mom,premie,nonsmoker,white,FT
+NA,19,second,39,10,1650,not married,35,5.94,not low,male,younger mom,full term,nonsmoker,not white,FT
+NA,21,second,36,3,950,not married,16,5.94,not low,male,younger mom,premie,nonsmoker,white,FT
+NA,21,first,41,18,2100,not married,62,6,not low,male,younger mom,full term,nonsmoker,not white,FT
+NA,31,other,40,14,2140,not married,56,6,not low,female,younger mom,full term,smoker,white,FT
+NA,25,other,39,5,2190,married,37,6,not low,female,younger mom,full term,smoker,not white,FT
+NA,29,first,34,10,550,not married,20,6,not low,male,younger mom,premie,nonsmoker,not white,FT
+NA,16,second,40,4,2680,not married,12,6,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,25,first,38,9,1020,not married,30,6.06,not low,female,younger mom,full term,nonsmoker,white,FT
+NA,39,other,38,16,-70,not married,25,6.06,not low,female,mature mom,full term,smoker,not white,FT
+NA,30,other,34,15,2830,not married,14,6.06,not low,male,younger mom,premie,nonsmoker,not white,FT
+NA,20,second,36,10,1390,not married,32,6.13,not low,female,younger mom,premie,nonsmoker,not white,FT
+NA,24,first,39,6,1990,not married,30,6.13,not low,female,younger mom,full term,smoker,not white,FT
+NA,25,second,35,0,2090,not married,20,6.13,not low,male,younger mom,premie,nonsmoker,not white,FT
+NA,18,first,36,18,1220,not married,20,6.19,not low,female,younger mom,premie,nonsmoker,white,FT
+NA,22,other,37,9,1670,not married,41,6.25,not low,male,younger mom,full term,smoker,white,FT
+NA,27,other,38,12,2240,not married,40,6.25,not low,male,younger mom,full term,smoker,not white,FT
+NA,25,second,37,11,1380,not married,31,6.25,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,23,second,32,13,2130,not married,28,6.25,not low,male,younger mom,premie,nonsmoker,not white,FT
+NA,20,first,39,13,920,not married,25,6.25,not low,female,younger mom,full term,nonsmoker,white,FT
+NA,24,other,38,16,1100,not married,15,6.31,not low,female,younger mom,full term,nonsmoker,white,FT
+NA,19,first,36,9,1260,not married,5,6.31,not low,female,younger mom,premie,nonsmoker,not white,FT
+NA,22,first,40,18,1860,not married,54,6.38,not low,male,younger mom,full term,smoker,white,FT
+NA,15,other,39,9,1830,not married,27,6.38,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,21,first,38,5,2350,not married,0,6.38,not low,male,younger mom,full term,smoker,white,FT
+NA,20,first,38,15,1720,not married,35,6.5,not low,male,younger mom,full term,nonsmoker,not white,FT
+NA,29,other,39,18,1440,married,25,6.5,not low,male,younger mom,full term,nonsmoker,white,FT
+NA,25,second,40,8,1650,not married,23,6.5,not low,female,younger mom,full term,smoker,not white,FT
+NA,26,other,37,16,2820,not married,22,6.56,not low,male,younger mom,full term,nonsmoker,white,FT
+NA,31,first,38,20,1570,not married,3,6.56,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,31,second,38,10,2020,not married,35,6.63,not low,female,younger mom,full term,nonsmoker,not white,FT
+NA,27,second,41,10,1350,not married,20,6.69,not low,male,younger mom,full term,nonsmoker,white,FT
+NA,19,first,38,3,1390,not married,36,6.75,not low,female,younger mom,full term,smoker,not white,PT
+NA,26,second,42,15,1090,not married,35,6.75,not low,female,younger mom,full term,nonsmoker,not white,None
+NA,21,second,38,10,1770,married,12,6.75,not low,female,younger mom,full term,nonsmoker,white,PT 
+NA,27,second,37,10,1480,not married,37,6.81,not low,female,younger mom,full term,nonsmoker,white,None
+NA,32,first,37,8,1610,not married,30,6.81,not low,female,younger mom,full term,nonsmoker,not white,PT
+NA,21,first,36,15,1470,not married,10,6.81,not low,male,younger mom,premie,nonsmoker,white,None
+NA,25,second,39,12,1540,married,41,6.88,not low,female,younger mom,full term,nonsmoker,white,PT 
+NA,16,second,40,7,1620,not married,35,6.88,not low,male,younger mom,full term,smoker,white,None
+NA,25,first,39,14,1590,married,20,6.88,not low,male,younger mom,full term,nonsmoker,white,PT
+NA,18,other,39,0,2210,not married,15,6.88,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,23,other,38,10,1580,not married,0,6.88,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,30,other,40,10,1320,not married,0,6.88,not low,female,younger mom,full term,nonsmoker,not white,None
+NA,20,other,35,20,1710,married,35,6.94,not low,male,younger mom,premie,nonsmoker,not white,None
+NA,17,second,39,10,2140,not married,40,7,not low,male,younger mom,full term,nonsmoker,not white,PT
+NA,28,other,41,11,1710,not married,14,7,not low,female,younger mom,full term,smoker,white,None
+NA,23,second,40,11,1360,not married,12,7,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,25,other,38,17,2610,married,38,7.06,not low,male,younger mom,full term,nonsmoker,white,None
+NA,20,second,40,7,1480,not married,25,7.06,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,30,second,36,11,1540,not married,21,7.06,not low,male,younger mom,premie,nonsmoker,white,None
+NA,24,first,38,12,2320,not married,0,7.06,not low,female,younger mom,full term,nonsmoker,not white,PT
+NA,22,first,39,13,1430,not married,38,7.13,not low,male,younger mom,full term,smoker,not white,None
+NA,21,second,39,20,940,married,30,7.13,not low,male,younger mom,full term,nonsmoker,white,PT 
+NA,16,other,38,12,2450,not married,30,7.13,not low,female,younger mom,full term,nonsmoker,white,None
+NA,24,second,42,7,680,not married,30,7.13,not low,female,younger mom,full term,nonsmoker,not white,PT
+NA,32,first,41,12,760,not married,21,7.13,not low,male,younger mom,full term,nonsmoker,white,None
+NA,24,other,39,20,1430,not married,26,7.19,not low,male,younger mom,full term,nonsmoker,white,PT
+NA,30,first,36,8,2140,not married,30,7.25,not low,female,younger mom,premie,nonsmoker,white,None
+NA,22,second,40,15,1600,not married,15,7.25,not low,female,younger mom,full term,nonsmoker,white,PT
+NA,27,second,39,8,650,not married,12,7.25,not low,female,younger mom,full term,smoker,not white,None
+NA,23,first,40,10,1250,not married,30,7.31,not low,male,younger mom,full term,nonsmoker,white,None
+NA,24,first,39,9,1760,not married,15,7.31,not low,female,younger mom,full term,nonsmoker,not white,PT
+NA,19,second,39,7,1130,not married,0,7.31,not low,male,younger mom,full term,smoker,not white,None
+NA,20,second,39,15,2000,not married,70,7.38,not low,female,younger mom,full term,smoker,white,None
+NA,25,first,39,6,1800,not married,40,7.38,not low,female,younger mom,full term,nonsmoker,white,PT
+NA,24,other,37,5,1940,married,34,7.38,not low,male,younger mom,full term,smoker,white,None
+NA,26,second,42,15,1960,not married,30,7.38,not low,male,younger mom,full term,smoker,white,PT 
+NA,22,second,40,7,2480,not married,25,7.38,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,26,second,41,6,810,not married,0,7.38,not low,female,younger mom,full term,nonsmoker,white,PT
+NA,17,first,42,8,2230,not married,72,7.44,not low,male,younger mom,full term,smoker,white,PT
+NA,18,other,42,15,1150,not married,27,7.44,not low,male,younger mom,full term,nonsmoker,white,None
+NA,26,first,41,20,2260,not married,20,7.44,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,20,second,39,16,1680,not married,18,7.44,not low,female,younger mom,full term,nonsmoker,not white,None
+NA,18,other,44,15,2080,not married,17,7.44,not low,male,younger mom,full term,smoker,white,PT
+NA,28,first,40,13,2340,not married,0,7.44,not low,female,younger mom,full term,nonsmoker,not white,None
+NA,17,other,39,12,2100,not married,50,7.5,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,24,second,40,12,1580,not married,47,7.5,not low,female,younger mom,full term,smoker,not white,PT 
+NA,23,other,39,11,1600,not married,40,7.5,not low,male,younger mom,full term,smoker,not white,None
+NA,13,other,39,10,1810,not married,38,7.63,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,20,other,36,15,970,not married,20,7.63,not low,male,younger mom,premie,nonsmoker,not white,None
+NA,17,first,40,15,2190,not married,20,7.63,not low,female,younger mom,full term,nonsmoker,not white,PT
+NA,27,second,39,16,1290,married,25,7.69,not low,female,younger mom,full term,nonsmoker,white,PT
+NA,22,other,37,8,1430,not married,23,7.69,not low,female,younger mom,full term,nonsmoker,white,None
+NA,19,second,39,9,870,not married,35,7.75,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,28,other,40,5,1230,not married,31,7.81,not low,female,younger mom,full term,nonsmoker,white,PT 
+NA,37,other,41,9,1320,not married,30,7.81,not low,female,mature mom,full term,nonsmoker,not white,None
+NA,22,first,41,13,2220,not married,28,7.81,not low,female,younger mom,full term,nonsmoker,not white,PT
+NA,18,second,41,6,1910,not married,41,7.88,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,19,first,39,10,2250,not married,22,7.88,not low,male,younger mom,full term,nonsmoker,white,None
+NA,14,second,42,15,1330,not married,20,7.88,not low,male,younger mom,full term,nonsmoker,not white,PT
+NA,23,first,41,14,1640,married,19,7.88,not low,female,younger mom,full term,nonsmoker,white,None
+NA,33,first,37,9,1530,not married,35,7.94,not low,female,younger mom,full term,nonsmoker,not white,PT 
+NA,26,other,38,14,1850,not married,40,8,not low,male,younger mom,full term,smoker,white,None
+NA,20,other,38,12,1900,not married,45,8.06,not low,male,younger mom,full term,nonsmoker,white,PT 
+NA,28,other,39,16,1490,not married,35,8.06,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,23,second,44,4,1270,not married,55,8.13,not low,female,younger mom,full term,smoker,not white,None
+NA,24,other,35,3,1230,not married,13,8.13,not low,female,younger mom,premie,nonsmoker,white,PT
+NA,35,other,39,3,1240,not married,10,8.13,not low,male,mature mom,full term,nonsmoker,not white,None
+NA,28,other,38,10,2230,married,70,8.19,not low,male,younger mom,full term,nonsmoker,white,PT
+NA,26,second,40,15,2000,not married,30,8.19,not low,female,younger mom,full term,nonsmoker,white,None
+NA,37,first,39,5,2590,not married,20,8.19,not low,female,mature mom,full term,smoker,not white,PT 
+NA,25,second,40,8,2060,not married,18,8.19,not low,male,younger mom,full term,nonsmoker,white,None
+NA,25,second,40,15,960,not married,38,8.25,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,28,first,37,13,1370,not married,35,8.25,not low,female,younger mom,full term,nonsmoker,not white,PT 
+NA,24,other,41,6,1460,not married,60,8.31,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,21,second,38,11,1480,married,41,8.31,not low,male,younger mom,full term,smoker,white,PT 
+NA,19,other,39,11,2500,not married,48,8.38,not low,female,younger mom,full term,smoker,not white,None
+NA,22,first,39,13,1430,not married,37,8.38,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,23,first,38,12,1510,not married,35,8.38,not low,female,younger mom,full term,nonsmoker,white,None
+NA,21,other,41,12,1700,not married,32,8.38,not low,male,younger mom,full term,nonsmoker,not white,PT
+NA,38,first,38,15,1370,married,13,8.38,not low,male,mature mom,full term,nonsmoker,white,None
+NA,25,other,40,14,2180,not married,48,8.56,not low,male,younger mom,full term,nonsmoker,white,PT 
+NA,19,first,41,12,2600,not married,0,8.56,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,21,other,39,10,1390,not married,56,8.63,not low,male,younger mom,full term,smoker,not white,PT
+NA,25,second,38,11,1660,not married,27,8.75,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,18,other,40,12,1620,not married,13,8.75,not low,male,younger mom,full term,nonsmoker,not white,PT 
+NA,16,second,42,8,1310,not married,34,8.81,not low,female,younger mom,full term,nonsmoker,white,None
+NA,23,other,42,9,2350,married,22,8.81,not low,male,younger mom,full term,nonsmoker,not white,PT
+NA,21,first,41,10,1650,not married,40,9.06,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,20,first,40,17,2040,not married,39,9.06,not low,male,younger mom,full term,smoker,white,PT
+NA,18,first,39,8,2610,not married,26,9.06,not low,male,younger mom,full term,nonsmoker,not white,None
+NA,26,other,44,14,1190,not married,25,9.13,not low,male,younger mom,full term,smoker,white,None
+NA,19,other,42,10,2380,not married,25,9.5,not low,female,younger mom,full term,nonsmoker,not white,None
+NA,30,first,39,10,1540,not married,38,11.75,not low,male,younger mom,full term,nonsmoker,white,None

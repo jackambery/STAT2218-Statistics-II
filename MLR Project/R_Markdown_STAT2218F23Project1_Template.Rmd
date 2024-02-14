@@ -1,0 +1,231 @@
+---
+title: "RMarkdown STAT 2218 Project 1"
+author: "Jack Ambery and Kevin Wilson"
+date: "Nov 3, 2023"
+output: word_document
+  
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height = 4, fig.width = 6)
+#Note:  You can delete the include = FALSE (or change it to TRUE) in the R chunk above if you want the R code to print.
+```
+
+
+\vspace{0.2in}
+Work in a team of 1, 2 or 3 students.  You will hand in 1 typed report per group.
+
+You are hired by a company sells two main types of products remotely by connecting to and talking to customers by phone. They provide a data set that has the following information.  Each row includes information from one employee's shift randomly selected across the different teams, regions and products. Read through the variables carefully.
+
+Data:  salesdata.csv
+
+* Team:  This represents the team that the employee works on (Team A to J). The company is organized into 10 teams.
+* Product: Which product was being sold during shift (Product 1 or 2)
+* Region: Which state the employee works in
+* Shift:   The number of hours the employee worked on that shift
+* TotalTalk: The total number of hours during the shift the employee was talking to customers on the phone
+* TotalHold: The total number of hours during the shift the employee had customers on hold
+* TotalNumSales: The total number of items sold during the shift
+* TotalRevenue: The total amount of revenue (in $) employee made during the shift
+* NumCalls: The total number of calls the employee took during the shift
+* TotalNumFeedback: The total number of customers that submitted feedback on the employee during the shift
+* PercentSatisfied: The percent of customer surveys that had positive reviews (Excellent or Good ratings)
+* NumPos: The number of customer surveys that were positive reviews (Excellent or Good ratings)
+* NumNeg: The number of customer surveys that were negative reviews (Fair or Poor ratings)
+
+
+For this project, they want you to generate a linear model that predicts total revenue from other metrics that they collect. Your team will write a report based on your analyses, assuming a significance level of 5%, that includes your R code, relevant output and analysis for each of following concepts.
+
+
+
+
+
+# Input data file below.
+Import data into RStudio using the base option, and then cut and paste YOUR file directory in the read.csv command below. It may be different from what I have listed below since your files are located in a different directory/folder. Then you can attach the file.
+
+```{r}
+
+salesdata <- read.csv("C:/Users/jacka/OneDrive - fairfield.edu/Fall 2023/Statistics II/salesdata.csv")
+attach(salesdata)
+
+```
+
+
+# Part 1: Exploratory Analysis (10 pts)
+
+
+*	What numerical explanatory variables appear to be  related to total revenue?  Are they linearly related? Explain and provide graphical and numerical evidence.   
+*	What numerical explanatory variables appear to be related to each other? Explain and provide graphical and numerical evidence.   
+
+
+## Part 1 R Code
+
+```{r}
+# Plot of all the numerical values plotted against each other
+plot(salesdata[, 4:13])
+
+#Correlations of each variable pair combination
+cor(salesdata[, 4:13])
+```
+
+## Part 1 Analysis
+Insert your analysis here.
+
+Based on the table of scatterplots we created, it initially does not appear that many of the variables follow a linear trend that may predict Total Revenue. Based on the scatter plots, it seems that the only variables that have the potential to predict TotalRevenue are TotalNumSales, NumPos, and TotalNumFeedback. Further analysis will be required to confirm this.
+
+Looking at the correlation coefficients, it appears that TotalNumSales, TotalNumFeedback, PercentSatisfied, and NumPos have the strongest relationships with TotalRevenue. These have correlations of 0.61, 0.51, 0.53, and 0.54, respectively. This confirms the slight trends we noticed in the scatterplots.
+
+Next, we looked at linear relationships between explanatory variables. We noticed quite a few on the scatterplot table and confirmed those observations with the correlation coefficients.
+
+Shift and TotalTalk have a correlation coefficient of about 0.98, there is definitely a linear relationship between Shift and TotalTalk. Intuitively, this makes a lot of sense.
+
+TotalNumFeedback and NumPos appear to be linearly related as they have a correlation coefficient of 0.96.
+
+PercentSatisfied and NumPos appear to be linearly related as they have a correlation coefficient of 0.90.
+
+PercentSatisfied and NumNeg appear to have a linear relationship as they have a correlation coefficient of -0.90.
+
+PercentSatisfied and TotalNumFeedback have a correlation coefficient of 0.756, suggesting a moderately strong correlation.  
+
+NumPos and NumNeg appear to have a linear relationship as they have a correlation coefficient of -0.68.
+
+These relationships will help us determine possible multicollinearity later, when trying to deteremine the best linear model to use.
+
+\vspace{.2in}
+# Part 2: Models (30 pts)
+*	Find the model that your group best predicts total revenue from all or a subset of the numerical explanatory variables.
+*	You should summarize all models that your group looked at and explain why you judged your final model to be best.
+* Assess your final model, including checking for multicollinearity and determine if each condition of the multiple linear regression (MLR) assumptions is met. Explain and include evidence to support your claims.
+*	If your final model exhibits multicollinearity, find and include a different model that does not exhibit multicollinearity.  And, explain which model (the model with multicollinearity or without multicollinearity) you think is better and why.
+*	Give the equation of your group’s “best” MLR model to predict total revenue.
+
+
+## Part 2 R Code
+```{r}
+
+# This is the linear model that uses every numerical variable to predict TotalRevenue
+out=lm(TotalRevenue ~ Shift + TotalTalk + TotalHold + TotalNumSales + NumCalls + TotalNumFeedback + PercentSatisfied + NumPos + NumNeg)
+summary(out)
+
+# removed TotalNumFeedback
+out=lm(TotalRevenue ~ Shift + TotalTalk + TotalHold + TotalNumSales + NumCalls + PercentSatisfied + NumNeg + NumPos)
+summary(out)
+
+# removed NumNeg
+out=lm(TotalRevenue ~ Shift + TotalTalk + TotalHold + TotalNumSales + NumCalls + PercentSatisfied + NumPos)
+summary(out)
+
+# removed Shift
+out=lm(TotalRevenue ~ TotalTalk + TotalHold + TotalNumSales + NumCalls + PercentSatisfied + NumPos)
+summary(out)
+
+# removed TotalTalk
+out=lm(TotalRevenue ~ TotalHold + TotalNumSales + NumCalls + PercentSatisfied + NumPos)
+summary(out)
+
+# removed TotalHold
+out=lm(TotalRevenue ~ TotalNumSales + NumCalls + PercentSatisfied + NumPos)
+summary(out)
+
+# removed PercentSatisfied
+out=lm(TotalRevenue ~ TotalNumSales + NumCalls + NumPos)
+summary(out)
+
+#Removed NumCalls
+out=lm(TotalRevenue ~ TotalNumSales + NumPos)
+summary(out)
+# this is our final model, all variables are significant
+
+# Checking for multicollinearity
+cor(TotalNumSales, NumPos)
+
+plot(TotalNumSales, NumPos)
+plot(NumPos, TotalNumSales)
+
+library(car)
+vif(out)
+
+# Checking Assuptions
+# Assumption 1 - Linear model is appropriate?
+plot(TotalRevenue~TotalNumSales)
+plot(TotalRevenue~NumPos)
+cor(TotalRevenue,TotalNumSales)
+cor(TotalRevenue,NumPos)
+
+# Assumption 2 - Residuals are normally distributed?
+hist(out$residuals)
+qqnorm(out$residuals)
+shapiro.test(out$residuals)
+
+# Assumption 3 - Residuls has consant variance?
+plot(out$fitted, out$residuals)
+abline(0,0)
+
+# Assumption 4 - Residuals are independent?
+plot(out$residuals)
+abline(0,0)
+
+```
+
+## Part 2 Analysis
+
+The model including every numerical variable was not a significant in predicting TotalRevenue, since many variables had a p-value > 0.05 Also, the p-value for whole model was less than 0.05, so we do believe there is a linear relationship, we just need to eliminate variables that do not assist in this prediction.
+
+Using the backwards elimintion method, we started removing variables from our linear model.  First, we removed TotalNumFeedback from the next model because it had the highest p-value. This new model still had insigificant p-values, namely Shift, TotalTalk, TotalHold, NumCalls, PercentSatisfied and NumNeg. Through an iterative process, we kept removing the variable with the highest p-value one-by-one. The largest p-value in this model was NumNeg so we remove that variable for our next model. 
+
+Then the model still had insignificant p-values with the largest being Shift, so we removed Shift for our model. 
+
+This model also displayed insigificant p-values with the largest value being TotalTalk, so we removed it from our model. 
+
+Next, we deleted TotalHold. We were getting closer since the model now only had two variables with insigificant p-values which were NumCalls and PercentSatisfied. We removed PercentSatisfied for out next model as it had the largest p-value. Ad then we removed NumCalls after that.
+
+Finally, our model only ended up including TotalNumSales and NumPos, which both had significant p-values, meaning this was our final model and we were finished with backwards elimination.
+
+Next we had to check for possible mulitcolliniarity between our explanatory variables.
+
+The correlation coefficient between TotalNumSales and NumPos is about 0.285 which indicated weak correlation between TotalNumSales and NumPos. In addition, the pairwise scatterplots between the two variables do not indicate any kind of relationship.
+
+We also looked at the VIF for each variable. The results above show that the VIFs for TotalNumSales and NumPos are both less than 5, which supports no multicollinearity. We can confidently say, these three findings indicate that our final model does not exhibit any multicollinearity.
+
+Next we checked all the assumptions of our linear model.
+
+The first of these was to check if a linear model is appropriate. We looked at the pairwise scatterplots and the pairwise correlations with Total Revenue as Y and TotalNumSales and NumPos as the X variables. Both plots display a moderate linear relationship. To confirm this, both pairwise correlations are greater than 0.5. As a result, it appears assumption 1 is met, a linear model is appropriate.
+
+The next condition checks if the residuals are normally distributed and centered about 0. The histogram appears relatively normal and centered at 0.  Additionally, the shapiro test returns a p-value of 0.00058, indicating the residuals are normally distributed. Thus, condition 2 is met as the residuals are normally distributed and centered about 0.
+
+The third condition checks if the residuals have constant variance. We look at the plot of residuals vs predicted values to see if this condition is met. Our plot does not display constant spread about y = 0 and it resembles a sideways V-shape. This means the residuals do not have constant variance and this condition is not met.
+
+The last assumption checks if the residuals are independent, we look at the plot of the residuals. For the most part, there is no pattern and the plot shows random scatter but there are some weird values on the left that are much large than the others. We believe the residuals are still independent making this assumption met.
+
+The equation for our final model is
+TotalRevenue "hat" = 330.620 + 7.984(TotalNumSales) + 3.063(NumPos)
+
+\vspace{.2in}
+
+## Part 3: Predictions (10 pts)
+Use your group’s “best” model to find a 95% interval to predict the total revenue for each new observation with the measurements given in the table on the handout. Summarize the result in a sentence. Give the R code used.
+
+Note that you may not need to use all of the inputs given in the table.
+
+
+## Part 3 R code
+```{r}
+
+# Subject One Prediction
+subject1 = data.frame(TotalNumSales=25, NumPos=61)
+predict(out, subject1, interval='confidence', level=.95)
+
+# Subject Two Prediction
+subject2 = data.frame(TotalNumSales=100, NumPos=75)
+predict(out, subject2, interval='confidence', level=.95)
+```
+
+## Part 3 Analysis
+
+With 95% confidence, we can say that the total revenue for Subject 1 will be between 691.37 and 742.77 dollars.
+
+With 95% confidence, we can say that the total revenue for Subject 2 will be between 1191.78 and 1525.74 dollars.
+
+***
+ End of Problem Set
+
